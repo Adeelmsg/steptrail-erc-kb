@@ -1,0 +1,3677 @@
+{
+  "format": "erc-guides",
+  "version": 1,
+  "updated": "2026-10-29",
+  "source": "Explored on erc.expogenie.io/erc/trainagent (admin + exhibitor via Login As)",
+  "guides": [
+    {
+      "id": "add-package",
+      "title": "Add a new Package (sponsorship / exhibitor package)",
+      "side": "admin",
+      "tags": [
+        "package",
+        "product",
+        "add",
+        "create",
+        "sponsorship",
+        "tier",
+        "naya package",
+        "product banana",
+        "shop"
+      ],
+      "questions": [
+        "How do I add a package?",
+        "naya package kaise add karun",
+        "create sponsorship package",
+        "add product to shop",
+        "shop products kahan hai",
+        "where are products"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Products from the left menu.",
+          "path": "manage-products",
+          "label": "Products"
+        },
+        {
+          "text": "In the **Packages** section click **Add New**.",
+          "path": "manage-products",
+          "label": "Add New"
+        },
+        {
+          "text": "Fill **Name**, **List Price**, keep **Stock Status = In Stock** and enter **Stock Quantity**.",
+          "path": null,
+          "label": "Name"
+        },
+        {
+          "text": "Pick **Assign Level** (the level the buyer gets, e.g. Exhibitor). You can type a new level name there to create it.",
+          "path": null,
+          "label": "Assign Level"
+        },
+        {
+          "text": "Optional: upload an Image (1024×1024), write Product Description and Line Item Description (shows on invoice).",
+          "path": null,
+          "label": "Product Description"
+        },
+        {
+          "text": "Optional: **Advanced** ▸ Group, Maximum Quantity Per Company, Tags. **Workflows** ▸ Include These Booths In Item Price, Assign Tasks, Assign Priority Points.",
+          "path": null,
+          "label": "Workflows"
+        },
+        {
+          "text": "Click **Save** → “Item created successfully”.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Keep 'Item is visible' ON or exhibitors will not see it. Packages are tiers; Add-Ons are optional extras."
+    },
+    {
+      "id": "add-addon",
+      "title": "Add a new Add-On product",
+      "side": "admin",
+      "tags": [
+        "add-on",
+        "addon",
+        "add on",
+        "extra",
+        "product",
+        "sponsorship opportunity",
+        "add karna"
+      ],
+      "questions": [
+        "How do I add an add-on?",
+        "add on kaise banayein",
+        "create add-on for exhibitors"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Products.",
+          "path": "manage-products",
+          "label": "Products"
+        },
+        {
+          "text": "In the **Add-Ons** section click **Add New**.",
+          "path": "manage-products",
+          "label": "Add New"
+        },
+        {
+          "text": "Fill Name, List Price, Stock Status, Stock Quantity, image and description.",
+          "path": null,
+          "label": "Name"
+        },
+        {
+          "text": "Open **Advanced** to set **Level Visibility** (which levels can see/buy it), Maximum Quantity Per Company, Group, Tags.",
+          "path": null,
+          "label": "Advanced"
+        },
+        {
+          "text": "Optional **Workflows**: Assign Tasks, Assign Level, Increase Booth Staff Registration Limit, Assign Priority Points.",
+          "path": null,
+          "label": "Workflows"
+        },
+        {
+          "text": "Click **Save**.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Exhibitors buy add-ons from the ADD-ONS menu in their portal."
+    },
+    {
+      "id": "edit-product",
+      "title": "Edit, hide, duplicate, reorder or delete a product",
+      "side": "admin",
+      "tags": [
+        "edit product",
+        "change price",
+        "price change",
+        "hide product",
+        "duplicate",
+        "copy product",
+        "reorder",
+        "position",
+        "delete product",
+        "out of stock",
+        "stock",
+        "where is",
+        "shop products",
+        "manage products",
+        "products page",
+        "kahan hai"
+      ],
+      "questions": [
+        "How do I change a package price?",
+        "product ki price kaise change karun",
+        "hide a product",
+        "reorder packages",
+        "delete product",
+        "delete a product",
+        "remove product",
+        "delete package",
+        "delete addon",
+        "Where is Shop Products?",
+        "Shop products kahan hai",
+        "manage products kahan hai",
+        "where is the shop",
+        "products page kahan hai",
+        "shop mein products kaise dekhun"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Products.",
+          "path": "manage-products",
+          "label": "Products"
+        },
+        {
+          "text": "Use the row icons: ✎ edit, 🗑 delete, 👁 preview, ⧉ duplicate.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "To hide it: edit → turn off **Item is visible**, or set Stock Status = **No Longer Available** → Save.",
+          "path": null,
+          "label": "Item is visible"
+        },
+        {
+          "text": "To reorder: drag the ≡ handle in the Position column, then click **Save Position**.",
+          "path": null,
+          "label": "Save Position"
+        }
+      ],
+      "notes": "Changing a price does not change invoices that were already created."
+    },
+    {
+      "id": "product-groups",
+      "title": "Group products (Manage Product Groups)",
+      "side": "admin",
+      "tags": [
+        "group",
+        "product group",
+        "category",
+        "collapse"
+      ],
+      "questions": [
+        "How do I group products?",
+        "products ko group mein kaise dalun"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Products and scroll to **Manage Product Groups** → **Add New** (name + description).",
+          "path": "manage-products",
+          "label": "Manage Product Groups"
+        },
+        {
+          "text": "Edit each product → **Advanced** ▸ **Group** → pick the group → Save.",
+          "path": null,
+          "label": "Group"
+        },
+        {
+          "text": "Optional: Shop › Advanced › Shop Settings › **Open Groups By Default?**",
+          "path": "advanced/advanced-settings",
+          "label": "Open Groups By Default?"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "create-order",
+      "title": "Create an order / invoice for a company (admin)",
+      "side": "admin",
+      "tags": [
+        "order",
+        "invoice",
+        "create invoice",
+        "manual order",
+        "sales receipt",
+        "bill",
+        "invoice banana",
+        "order banana"
+      ],
+      "questions": [
+        "How do I create an invoice for an exhibitor?",
+        "admin side se order kaise create karun",
+        "make a sales receipt"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Orders.",
+          "path": "invoices",
+          "label": "Orders"
+        },
+        {
+          "text": "Click **Create Order**.",
+          "path": "invoices",
+          "label": "Create Order"
+        },
+        {
+          "text": "Pick the **Company** and **Type** (Invoice = amount due, Sales Receipt = paid) → **Continue**.",
+          "path": null,
+          "label": "Continue"
+        },
+        {
+          "text": "Go through the steps: Select Package → Select Booth → Add-Ons (click **Add to Cart**, then **Next**).",
+          "path": null,
+          "label": "Add to Cart"
+        },
+        {
+          "text": "In **Review Cart** you can change Qty and **Sale Price**, apply a Discount Code, add Notes (shown on invoice) and Hidden Notes.",
+          "path": null,
+          "label": "Sale Price"
+        },
+        {
+          "text": "**Checkout**: check billing info, choose whether to **Send Email?**, then **Place Order** → “Your Order has been placed”.",
+          "path": null,
+          "label": "Place Order"
+        }
+      ],
+      "notes": "Booths appear in Select Booth only if they are set for sale (Floor Plan › Sell Booth)."
+    },
+    {
+      "id": "edit-invoice",
+      "title": "Edit an existing invoice / order",
+      "side": "admin",
+      "tags": [
+        "edit invoice",
+        "change invoice",
+        "update order",
+        "add item to invoice",
+        "remove item",
+        "invoice edit"
+      ],
+      "questions": [
+        "How do I edit an invoice?",
+        "invoice mein item add kaise karun",
+        "change price on invoice"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Orders and click the ✎ pencil on the invoice row.",
+          "path": "invoices",
+          "label": "Orders"
+        },
+        {
+          "text": "Change items in Select Package / Select Booth / Add-Ons / **Review Cart** (qty, sale price, discount, notes).",
+          "path": null,
+          "label": "Review Cart"
+        },
+        {
+          "text": "Go to **Checkout** and click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": "Clock icon = View Invoice History (who changed what). Document icon = Display Invoice (PDF)."
+    },
+    {
+      "id": "record-payment",
+      "title": "Record a manual payment (check / wire) on an invoice",
+      "side": "admin",
+      "tags": [
+        "payment",
+        "receive payment",
+        "mark paid",
+        "check",
+        "cheque",
+        "wire",
+        "offline payment",
+        "paid",
+        "payment record",
+        "balance due"
+      ],
+      "questions": [
+        "How do I mark an invoice as paid?",
+        "check payment kaise add karun",
+        "receive payment on invoice"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Orders and click ✎ on the invoice.",
+          "path": "invoices",
+          "label": "Orders"
+        },
+        {
+          "text": "Go to the **Checkout** step.",
+          "path": null,
+          "label": "Checkout"
+        },
+        {
+          "text": "Click **Receive Payment**.",
+          "path": null,
+          "label": "Receive Payment"
+        },
+        {
+          "text": "Enter Payment Amount, Payment Method, Payment Date, Transaction ID (e.g. check #) and notes → **Add**.",
+          "path": null,
+          "label": "Add"
+        },
+        {
+          "text": "Click **Save Changes**. Status changes from BALANCE DUE to PAID when fully paid.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "refund",
+      "title": "Log a refund on an invoice",
+      "side": "admin",
+      "tags": [
+        "refund",
+        "money back",
+        "log a refund",
+        "refund karna"
+      ],
+      "questions": [
+        "How do I refund an exhibitor?",
+        "refund kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Shop › Orders → ✎ on the invoice → **Checkout** step.",
+          "path": "invoices",
+          "label": "Orders"
+        },
+        {
+          "text": "Click **Log a Refund**, enter the details and save.",
+          "path": null,
+          "label": "Log a Refund"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": "Log a Refund records the refund in ERC; money returned through Stripe/Authorize.Net may also need to be refunded in that provider."
+    },
+    {
+      "id": "resend-invoice",
+      "title": "Send / resend an invoice email or download the invoice PDF",
+      "side": "admin",
+      "tags": [
+        "send invoice",
+        "resend invoice",
+        "email invoice",
+        "invoice pdf",
+        "download invoice",
+        "invoice email"
+      ],
+      "questions": [
+        "How do I resend the invoice to the exhibitor?",
+        "invoice dobara kaise bhejun",
+        "download invoice pdf"
+      ],
+      "steps": [
+        {
+          "text": "Shop › Orders → document icon (**Display Invoice**) on the row to open / download the PDF.",
+          "path": "invoices",
+          "label": "Orders"
+        },
+        {
+          "text": "To email it: ✎ on the row → **Checkout** step → **Send Email**.",
+          "path": null,
+          "label": "Send Email"
+        }
+      ],
+      "notes": "Invoice look and 'Attach Invoice with Email' are set in Content › Invoice Editor."
+    },
+    {
+      "id": "discount-code",
+      "title": "Create a discount / coupon code",
+      "side": "admin",
+      "tags": [
+        "discount",
+        "coupon",
+        "promo",
+        "code",
+        "discount code",
+        "percentage off",
+        "coupon code banana"
+      ],
+      "questions": [
+        "How do I create a discount code?",
+        "discount code kaise banayein",
+        "10% coupon"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Advanced (tab **Payment Rules**).",
+          "path": "advanced/manage-rules",
+          "label": "Payment Rules"
+        },
+        {
+          "text": "Click the **Discount Codes** card.",
+          "path": "advanced/manage-rules",
+          "label": "Discount Codes"
+        },
+        {
+          "text": "Enter **Rule Name** (internal) and **User-Facing Name** (shows in cart) — the user-facing name auto-copies the rule name, so fix it if needed.",
+          "path": null,
+          "label": "RULE NAME"
+        },
+        {
+          "text": "In **IF Discount Code equals** clear the auto-filled text and type your code (case-insensitive).",
+          "path": null,
+          "label": "Discount Code"
+        },
+        {
+          "text": "THEN **Apply Discount** → Take X **Percentage**/amount off → Applies to Entire Cart / Product Category / Specific Product(s).",
+          "path": null,
+          "label": "Apply Discount"
+        },
+        {
+          "text": "Optional CODE DETAILS: Total Uses, Uses Per Company, Expiration Date.",
+          "path": null,
+          "label": "Total Uses"
+        },
+        {
+          "text": "Click **Save Rule** → “Rule created successfully”.",
+          "path": null,
+          "label": "Save Rule"
+        }
+      ],
+      "notes": "Exhibitors enter the code in Review Cart → Apply Discount. Turn a rule on/off with the toggle in 'Your active rules'. Hide the code box via Event Setup › Advanced Settings › Hide Discount Code Field."
+    },
+    {
+      "id": "pricing-rules",
+      "title": "Level discounts, early bird, multi-booth pricing, card fees",
+      "side": "admin",
+      "tags": [
+        "early bird",
+        "early bird discount",
+        "early bird pricing",
+        "level discount",
+        "level based discount",
+        "member discount",
+        "member discount",
+        "multi booth",
+        "booth discount",
+        "card fee",
+        "surcharge",
+        "convenience fee",
+        "tax",
+        "pricing rule",
+        "payment rules"
+      ],
+      "questions": [
+        "How do I add early bird pricing?",
+        "member ko discount kaise dein",
+        "credit card fee add karni hai",
+        "second booth discount"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Advanced › **Payment Rules**.",
+          "path": "advanced/manage-rules",
+          "label": "Payment Rules"
+        },
+        {
+          "text": "Pick a card: **Level-Based Discounts** (IF Level equals…), **Early Bird Pricing** (IF Date is before…), **Multi-Booth Pricing** (price per 1st/2nd… booth), **Payment Method Rules** (fee/discount by payment method), or **Build Your Own Rule**.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Set Rule Name, conditions, THEN action (Apply Discount / Add Fee / Add Tax / Include Free Item) and Applies To.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Click **Save Rule**. Manage rules in 'Your active rules' (toggle, edit, duplicate, delete).",
+          "path": null,
+          "label": "Save Rule"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "installments",
+      "title": "Allow installment payments",
+      "side": "admin",
+      "tags": [
+        "installment",
+        "installments",
+        "split payment",
+        "payment plan",
+        "qist"
+      ],
+      "questions": [
+        "Can exhibitors pay in installments?",
+        "installment kaise on karun"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Advanced › Payment Rules.",
+          "path": "advanced/manage-rules",
+          "label": "Payment Rules"
+        },
+        {
+          "text": "Scroll to **Installment Payments** and turn it on, then configure.",
+          "path": null,
+          "label": "Installment Payments"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "payment-methods",
+      "title": "Payment methods (Pay Later, Stripe, Authorize.Net) shown at checkout",
+      "side": "admin",
+      "tags": [
+        "payment method",
+        "stripe",
+        "authorize",
+        "authorize.net",
+        "credit card",
+        "pay later",
+        "pay now",
+        "gateway",
+        "checkout options",
+        "card payment"
+      ],
+      "questions": [
+        "How do I enable credit card payments?",
+        "pay later kaise hide karun",
+        "stripe connect"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Payment Methods.",
+          "path": "payment-gateways",
+          "label": "Payment Methods"
+        },
+        {
+          "text": "Each row shows Display Label, Provider and **Connection**. A card method must be **Connected** to work.",
+          "path": null,
+          "label": "CONNECTION"
+        },
+        {
+          "text": "Use the **SHOWN AT CHECKOUT** toggle to show/hide a method (e.g. Hide Pay Later at checkout).",
+          "path": null,
+          "label": "SHOWN AT CHECKOUT"
+        },
+        {
+          "text": "Use ACTIONS to edit the label/description buyers see.",
+          "path": null,
+          "label": "ACTIONS"
+        }
+      ],
+      "notes": "If Stripe shows 'Not connected', exhibitors will not see Pay Now."
+    },
+    {
+      "id": "shop-settings",
+      "title": "Shop settings: default level, max packages, inventory, terms",
+      "side": "admin",
+      "tags": [
+        "shop settings",
+        "terms and conditions",
+        "terms",
+        "show inventory",
+        "max packages",
+        "number of allowed packages",
+        "default level"
+      ],
+      "questions": [
+        "How do I add terms and conditions at checkout?",
+        "exhibitor sirf ek package le sake",
+        "hide remaining stock"
+      ],
+      "steps": [
+        {
+          "text": "Open Shop › Advanced › **Shop Settings**.",
+          "path": "advanced/advanced-settings",
+          "label": "Shop Settings"
+        },
+        {
+          "text": "Set **Default Level Assignment**, **Number of allowed Packages** (blank = unlimited), **Show Inventory**, **Terms and Conditions**, **Open Groups By Default?**",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Click **Save Changes**. Terms text itself is the page “Terms And Conditions” in Content › Menu and Pages.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "add-company",
+      "title": "Add a company (exhibitor) manually or by bulk import",
+      "side": "admin",
+      "tags": [
+        "add company",
+        "new company",
+        "exhibitor add",
+        "bulk import",
+        "import companies",
+        "upload companies",
+        "company banana"
+      ],
+      "questions": [
+        "How do I add an exhibitor company?",
+        "company kaise add karun",
+        "bulk import exhibitors"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › Companies.",
+          "path": "companies",
+          "label": "Companies"
+        },
+        {
+          "text": "Click **Add ▾** → **Add New Company** (or **Bulk Import** for a file).",
+          "path": "companies",
+          "label": "Add"
+        },
+        {
+          "text": "Step 1 Basic Information: Company Name and **Level** → Next.",
+          "path": null,
+          "label": "Company Name"
+        },
+        {
+          "text": "Step 2 Additional Information: address, website, phone, tags → Next.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Step 3 Company Settings / Confirmation → save.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Then add a login for them in Companies › Users (Add New Users, Company = this company, Send Welcome Email).",
+          "path": "accounts",
+          "label": "Add"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "edit-company",
+      "title": "Edit company details, level, booth info, limits",
+      "side": "admin",
+      "tags": [
+        "edit company",
+        "change level",
+        "company level",
+        "update company",
+        "booth details",
+        "company description",
+        "logo",
+        "coi"
+      ],
+      "questions": [
+        "How do I change a company's level?",
+        "company ka level kaise change karun",
+        "edit exhibitor company info"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › Companies and click ✎ on the company.",
+          "path": "companies",
+          "label": "Companies"
+        },
+        {
+          "text": "**Basic Information**: Company Name, **Level** → Save Changes.",
+          "path": null,
+          "label": "Save Changes"
+        },
+        {
+          "text": "**Additional Information**: address, website, notes, tags, QuickBooks / Novi IDs.",
+          "path": null,
+          "label": "Additional Information"
+        },
+        {
+          "text": "**Company Settings**: Booth Details (logo, description, contacts, COI), Booth Staff limit override, Booth & Product override → **Save Settings**.",
+          "path": null,
+          "label": "Company Settings"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "merge-companies",
+      "title": "Merge duplicate companies",
+      "side": "admin",
+      "tags": [
+        "merge",
+        "duplicate",
+        "duplicate company",
+        "two companies",
+        "combine"
+      ],
+      "questions": [
+        "How do I merge two duplicate companies?",
+        "duplicate company merge kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Companies › Companies → ✎ on the duplicate (source) company.",
+          "path": "companies",
+          "label": "Companies"
+        },
+        {
+          "text": "Go to **Company Settings** → **Merge Duplicates**.",
+          "path": null,
+          "label": "Merge Duplicates"
+        },
+        {
+          "text": "Pick the **Target Company** and choose Replace/Skip/Move for Level, Task Data, Company Data, Admins, Invoices, Booths.",
+          "path": null,
+          "label": "Target Company"
+        },
+        {
+          "text": "Optional: 'Delete source Company after successful merge' → **Merge Now**.",
+          "path": null,
+          "label": "Merge Now"
+        }
+      ],
+      "notes": "Invoices and booths can only be moved, not copied."
+    },
+    {
+      "id": "delete-export-companies",
+      "title": "Export or delete companies in bulk",
+      "side": "admin",
+      "tags": [
+        "export",
+        "download companies",
+        "delete companies",
+        "bulk delete",
+        "export csv",
+        "delete company",
+        "remove company",
+        "delete a company",
+        "company delete"
+      ],
+      "questions": [
+        "How do I export the company list?",
+        "companies download kaise karun",
+        "How do I delete a company?",
+        "company delete kaise karun",
+        "how to delete a company",
+        "company kaise delete karun",
+        "delete company",
+        "remove a company",
+        "delete",
+        "delete companies",
+        "remove company",
+        "delete exhibitor"
+      ],
+      "steps": [
+        {
+          "text": "Companies › Companies → tick the rows (or the header checkbox for all).",
+          "path": "companies",
+          "label": null
+        },
+        {
+          "text": "Click **Actions** → **Export Selected** or **Delete Selected**.",
+          "path": null,
+          "label": "Actions"
+        }
+      ],
+      "notes": "For a fuller export with filters use Reports › Company Report → ⋯ → Export as CSV / Excel."
+    },
+    {
+      "id": "add-user",
+      "title": "Add a portal user / login for an exhibitor and send welcome email",
+      "side": "admin",
+      "tags": [
+        "add user",
+        "login",
+        "credentials",
+        "welcome email",
+        "new user",
+        "contact",
+        "user banana",
+        "password"
+      ],
+      "questions": [
+        "How do I give an exhibitor a login?",
+        "user kaise add karun",
+        "send welcome email"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies in the left menu, then click Users.",
+          "path": "accounts",
+          "label": null
+        },
+        {
+          "text": "Click **Add ▾** to open the dropdown.",
+          "path": "accounts",
+          "label": "Add"
+        },
+        {
+          "text": "Click **Add New Users** from the dropdown.",
+          "path": "accounts",
+          "label": "Add New Users"
+        },
+        {
+          "text": "Enter Email (click **Lookup User** to reuse an existing person), First/Last Name, Phone, Role = Company Admin, **Company**.",
+          "path": null,
+          "label": "Lookup User"
+        },
+        {
+          "text": "Optional: Set as Primary Contact. Password is generated (or tick 'Enter password manually').",
+          "path": null,
+          "label": "Set as Primary Contact"
+        },
+        {
+          "text": "Turn on **Send Welcome Email** (pick template) → **Save**.",
+          "path": null,
+          "label": "Send Welcome Email"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "delete-user",
+      "title": "Delete a portal user / remove exhibitor login",
+      "side": "admin",
+      "tags": [
+        "users",
+        "delete",
+        "portal user",
+        "remove login",
+        "companies"
+      ],
+      "questions": [
+        "How do I delete a user?",
+        "How do I remove an exhibitor login?",
+        "delete a user",
+        "remove a user",
+        "user delete kaise karun",
+        "portal user delete",
+        "how to delete portal user",
+        "remove exhibitor login",
+        "delete user login",
+        "user ka access hatao",
+        "delete",
+        "delete user",
+        "remove user",
+        "delete login"
+      ],
+      "steps": [
+        {
+          "text": "Open **Companies** in the left menu.",
+          "path": "companies",
+          "label": "Companies"
+        },
+        {
+          "text": "Click **Users** tab at the top.",
+          "path": "companies",
+          "label": "Users"
+        },
+        {
+          "text": "Tick the checkbox next to the user(s) you want to delete — or tick the header checkbox to select all.",
+          "path": "companies",
+          "label": ""
+        },
+        {
+          "text": "Click **Actions** → **Delete Selected**.",
+          "path": "companies",
+          "label": "Actions"
+        }
+      ],
+      "notes": "To export users instead of deleting, choose Actions → Export Selected."
+    },
+    {
+      "id": "resend-welcome",
+      "title": "Exhibitor can't log in / forgot password / resend login",
+      "side": "admin",
+      "tags": [
+        "can't login",
+        "cannot login",
+        "forgot password",
+        "reset password",
+        "login issue",
+        "welcome email",
+        "password reset",
+        "login nahi",
+        "password bhool"
+      ],
+      "questions": [
+        "Exhibitor can't log in",
+        "exhibitor ka password reset kaise karun",
+        "resend welcome email"
+      ],
+      "steps": [
+        {
+          "text": "Check the user exists: Companies › Users → search the email.",
+          "path": "accounts",
+          "label": "Search"
+        },
+        {
+          "text": "Give them the event Login Link (Event Setup page top → Login Link → Copy). They can use 'Forgot password?' there.",
+          "path": "event-setup",
+          "label": "Login Link"
+        },
+        {
+          "text": "Or ✎ edit the user, set a new password / send welcome email → Save.",
+          "path": "accounts",
+          "label": null
+        },
+        {
+          "text": "To see what they see, use the **Login As** icon on the user row.",
+          "path": "accounts",
+          "label": null
+        }
+      ],
+      "notes": "Email Report (Reports › Email Report) shows if the welcome email bounced."
+    },
+    {
+      "id": "login-as",
+      "title": "Log in as an exhibitor (impersonate) to see their portal",
+      "side": "admin",
+      "tags": [
+        "login as",
+        "impersonate",
+        "exhibitor view",
+        "see as exhibitor",
+        "exhibitor side",
+        "preview"
+      ],
+      "questions": [
+        "How do I see what the exhibitor sees?",
+        "exhibitor ban kar kaise dekhun",
+        "impersonate user"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › Users.",
+          "path": "accounts",
+          "label": "Users"
+        },
+        {
+          "text": "Click the **Login As** icon (arrow) on the user's row and **Confirm**.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "You are now in their portal (yellow 'Impersonating' bar). Click the exit icon at the right of that bar to return to admin.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": "Without a specific user: top bar 👁 Preview → Preview Sign Up Flow / Preview Portal."
+    },
+    {
+      "id": "levels",
+      "title": "Create levels and set booth staff / booth limits",
+      "side": "admin",
+      "tags": [
+        "level",
+        "levels",
+        "tier",
+        "booth staff limit",
+        "booth limit",
+        "level priority",
+        "level banana"
+      ],
+      "questions": [
+        "How do I create a new level?",
+        "level kaise banayein",
+        "set booth staff limit per level"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › Levels.",
+          "path": "levels",
+          "label": "Levels"
+        },
+        {
+          "text": "Click **Add New** → Level Name, Booth Staff Limit (blank = 0), Number of Allowed Booths (blank = unlimited) → Save.",
+          "path": "levels",
+          "label": "Add New"
+        },
+        {
+          "text": "If a company qualifies for two levels, the one higher in the list wins: drag rows and click **Save Level Priorities**.",
+          "path": null,
+          "label": "Save Level Priorities"
+        }
+      ],
+      "notes": "Levels are usually assigned by the package bought (Assign Level) or a booth workflow."
+    },
+    {
+      "id": "booth-staff-admin",
+      "title": "Booth staff: settings, limits, adding staff (admin)",
+      "side": "admin",
+      "tags": [
+        "booth staff",
+        "staff",
+        "staff limit",
+        "registration link",
+        "badge",
+        "booth staff add",
+        "staff registration"
+      ],
+      "questions": [
+        "How do I let exhibitors add booth staff?",
+        "booth staff limit kaise barhaun",
+        "exhibitor can't add booth staff"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › More › Booth Staff.",
+          "path": "booth-staff",
+          "label": "Booth Staff"
+        },
+        {
+          "text": "Click **Booth Staff Settings**: enable public registration form, Allow Exhibitor to add / edit & delete Booth Staff, hide count → Save.",
+          "path": "booth-staff",
+          "label": "Booth Staff Settings"
+        },
+        {
+          "text": "Limit per company comes from the **Level** (Booth Staff Limit). Raise it in Companies › Levels, or per company in Edit company › Company Settings › Booth Staff Settings (Override), or with an add-on workflow 'Increase Booth Staff Registration Limit'.",
+          "path": "levels",
+          "label": null
+        },
+        {
+          "text": "Admins can add staff directly with **Add New** on the Booth Staff page.",
+          "path": "booth-staff",
+          "label": "Add New"
+        }
+      ],
+      "notes": "If the exhibitor sees 'Registered Staff 0 of 0', their limit is 0."
+    },
+    {
+      "id": "pending-review",
+      "title": "Incomplete / pending registrations",
+      "side": "admin",
+      "tags": [
+        "pending",
+        "incomplete registration",
+        "failed payment",
+        "pending review",
+        "application",
+        "approve"
+      ],
+      "questions": [
+        "Where are incomplete registrations?",
+        "registration complete nahi hui",
+        "approve applicant"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › More › Pending Review (or the banner 'Review them →' on Companies).",
+          "path": "review-applicants",
+          "label": "Pending Review"
+        },
+        {
+          "text": "✔ checkmark = complete the registration (creates account; cart items are NOT kept). 🗑 = delete permanently.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": "After completing, create the order for them in Shop › Orders if they still need to buy."
+    },
+    {
+      "id": "sell-booth",
+      "title": "Put a booth up for sale / set booth price (Self-booth Purchase popup)",
+      "side": "admin",
+      "tags": [
+        "booth price",
+        "sell booth",
+        "booth for sale",
+        "reserve booth",
+        "booth not purchasable",
+        "booth price set",
+        "booth bechna",
+        "self-booth purchase",
+        "self booth purchase",
+        "level purchasability",
+        "user purchasability",
+        "booth description",
+        "booth level",
+        "assign user level",
+        "booth staff limit",
+        "priority points",
+        "level based discount booth",
+        "booth discount",
+        "deposit booth"
+      ],
+      "questions": [
+        "How do I set a booth price?",
+        "booth sale ke liye kaise lagaun",
+        "exhibitor can't buy booth",
+        "How do I let only one level buy a booth?",
+        "Can a booth purchase give the exhibitor a level?",
+        "booth ki price kaise change karun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Floor Plan** and click **Edit ✎** on the floor plan card.",
+          "path": "floorplan",
+          "label": "Edit"
+        },
+        {
+          "text": "Click the booth on the canvas (shift-click or drag to select several — the popup changes ALL selected booths).",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "In the right panel under **Self-Booth Purchase** click **Sell Booth** (or **Edit** if it is already for sale).",
+          "path": null,
+          "label": "Sell Booth"
+        },
+        {
+          "text": "In the **Self-booth Purchase** popup check **Selected Booths**, then enter the **Price** ($).",
+          "path": null,
+          "label": "Price"
+        },
+        {
+          "text": "**Level Purchasability**: which levels may buy it (All, or e.g. Exhibitor). **User Purchasability**: optionally limit to specific users.",
+          "path": null,
+          "label": "Level Purchasability"
+        },
+        {
+          "text": "Optional **Product Description** — shows in the booth pop-up for buyers (hidden after the booth is purchased).",
+          "path": null,
+          "label": "Product Description"
+        },
+        {
+          "text": "Optional **Level Based Discount**: pick Levels, Discount Type (Fixed / Percent) and the Discount.",
+          "path": null,
+          "label": "Level Based Discount"
+        },
+        {
+          "text": "Optional **IF this booth is purchased, THEN**: Override User's Existing Level + **Assign User Level**, **Increase Booth Staff Limit**, **Priority Points**.",
+          "path": null,
+          "label": "Assign User Level"
+        },
+        {
+          "text": "Click **Update** → “Booth detail has been successfully updated”.",
+          "path": null,
+          "label": "Update"
+        },
+        {
+          "text": "Click **Save** at the top of the editor and wait for “Floorplan has been saved successfully”, then **Exit** the editor.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Warning shown in the popup: changes apply to every booth in the current selection and override previous Price, Description and Level. Without Sell Booth the exhibitor only sees the booth number (no Reserve Booth). 'Don't Sell Booth' takes it off sale. Hidden in this event: Enable Deposits (Deposit OR Pay in Full / Deposit Only / No) with Deposits Type (Percentage / Fixed Amount) and Deposit Amount, and Option to Reserve?"
+    },
+    {
+      "id": "assign-booth",
+      "title": "Assign a booth to an exhibitor (admin)",
+      "side": "admin",
+      "tags": [
+        "assign booth",
+        "booth assign",
+        "give booth",
+        "booth number",
+        "exhibitor booth",
+        "booth dena"
+      ],
+      "questions": [
+        "How do I assign a booth to a company?",
+        "booth kisi company ko kaise assign karun",
+        "delete booth",
+        "remove booth",
+        "unassign booth"
+      ],
+      "steps": [
+        {
+          "text": "Floor Plan → **Edit ✎**.",
+          "path": "floorplan",
+          "label": "Edit"
+        },
+        {
+          "text": "Click the booth. In **Booth Settings** pick the company in **Exhibitors**.",
+          "path": null,
+          "label": "Exhibitors"
+        },
+        {
+          "text": "Click **Apply Booth Settings**, then **Save** at the top.",
+          "path": null,
+          "label": "Apply Booth Settings"
+        }
+      ],
+      "notes": "To charge for it, instead create an order (Shop › Orders › Create Order) and select the booth there."
+    },
+    {
+      "id": "floorplan-edit",
+      "title": "Edit booths: add, label, size, colour, tags, background",
+      "side": "admin",
+      "tags": [
+        "floor plan",
+        "floorplan",
+        "booth label",
+        "booth size",
+        "booth color",
+        "background",
+        "static layer",
+        "add booth",
+        "booth number change"
+      ],
+      "questions": [
+        "How do I change a booth number?",
+        "floor plan edit kaise karun",
+        "upload floor plan background",
+        "delete booth from floor plan",
+        "remove booth from map"
+      ],
+      "steps": [
+        {
+          "text": "Floor Plan → **Edit ✎**.",
+          "path": "floorplan",
+          "label": "Edit"
+        },
+        {
+          "text": "Add a booth: drag a shape from **Default Shapes** onto the plan.",
+          "path": null,
+          "label": "Default Shapes"
+        },
+        {
+          "text": "Select a booth: **Booth Label** (number), Booth Detail → **Apply Booth Settings**; Booth Type Settings for colours, font, shape, size (feet); Tags → Apply Tags.",
+          "path": null,
+          "label": "Booth Label"
+        },
+        {
+          "text": "Background: click empty canvas → Static Layer Settings → **Upload Static Layer**.",
+          "path": null,
+          "label": "Upload Static Layer"
+        },
+        {
+          "text": "Click **Save** (top). Use **Public View** to check.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "floorplan-settings",
+      "title": "Floor plan settings: public link, booth limit, pre-paid, hide details, queue",
+      "side": "admin",
+      "tags": [
+        "public floor plan",
+        "floor plan link",
+        "pre-paid",
+        "prepaid",
+        "hide price",
+        "hide exhibitor",
+        "booth queue",
+        "allowed booths"
+      ],
+      "questions": [
+        "Where is the public floor plan link?",
+        "booth price public view se kaise hide karun",
+        "how many booths can a user buy"
+      ],
+      "steps": [
+        {
+          "text": "Open Floor Plan and click **Settings ⚙** on the floor plan card.",
+          "path": "floorplan",
+          "label": "Settings"
+        },
+        {
+          "text": "Copy **Public Floor Plan Link**; set Number of Allowed Booths Per User, Default Zoom %.",
+          "path": null,
+          "label": "Public Floor Plan Link"
+        },
+        {
+          "text": "**Pre-paid**: booth is assigned immediately without checkout.",
+          "path": null,
+          "label": "Pre-paid"
+        },
+        {
+          "text": "Visibility: Hide Exhibitor Details, Hide Reserved Booth Exhibitor Details, Hide Booth Price on Public View. **Setup Booth Queue** for timed selection.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Click **Save**.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "tasks-admin",
+      "title": "Create a task / deliverable for exhibitors",
+      "side": "admin",
+      "tags": [
+        "task",
+        "tasks",
+        "deliverable",
+        "upload",
+        "due date",
+        "logo task",
+        "coi",
+        "task banana",
+        "form field"
+      ],
+      "questions": [
+        "How do I create a task for exhibitors?",
+        "naya task kaise add karun",
+        "ask exhibitors to upload a file",
+        "delete task",
+        "delete a task",
+        "remove task"
+      ],
+      "steps": [
+        {
+          "text": "Open Content › Tasks.",
+          "path": "tasks",
+          "label": "Tasks"
+        },
+        {
+          "text": "Click **Add New** → a new card appears at the top.",
+          "path": "tasks",
+          "label": "Add New"
+        },
+        {
+          "text": "Enter Field label, choose Field Type (Text Box, File Upload, Dropdown, Date, …) and a **Due Date** (required).",
+          "path": null,
+          "label": "Field label"
+        },
+        {
+          "text": "Choose levels (All or specific) and/or Select Exhibitors; add **Specifications** (instructions).",
+          "path": null,
+          "label": "Specifications"
+        },
+        {
+          "text": "Optional sliders icon: Submission Notification emails, Lock Task When Submitted, Lock after due date.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Click **Save All Changes** → 'Changes have been saved'.",
+          "path": null,
+          "label": "Save All Changes"
+        }
+      ],
+      "notes": "If Save All Changes seems to do nothing, check every new task has a Due Date. Submissions: Reports › Task Detail Report / Task Grid Report."
+    },
+    {
+      "id": "task-submissions",
+      "title": "See / download task submissions",
+      "side": "admin",
+      "tags": [
+        "task report",
+        "submissions",
+        "uploaded files",
+        "download logos",
+        "task grid",
+        "bulk download"
+      ],
+      "questions": [
+        "Where can I see what exhibitors submitted?",
+        "task submissions kahan dekhun",
+        "download all logos"
+      ],
+      "steps": [
+        {
+          "text": "Open Reports › Task Grid Report (one row per company) or Task Detail Report (one row per submission).",
+          "path": "company-task-report",
+          "label": null
+        },
+        {
+          "text": "Use **Bulk Download** to get uploaded files, or ⋯ → Export as CSV / Excel.",
+          "path": null,
+          "label": "Bulk Download"
+        }
+      ],
+      "notes": "Companies › Companies › Bulk Download File Uploads also downloads files."
+    },
+    {
+      "id": "menu-pages",
+      "title": "Change exhibitor portal menu and pages (Home, FAQ…)",
+      "side": "admin",
+      "tags": [
+        "menu",
+        "page",
+        "pages",
+        "home page text",
+        "home page content",
+        "faq",
+        "content",
+        "exhibitor menu",
+        "add page",
+        "edit page",
+        "expo hours",
+        "menu order"
+      ],
+      "questions": [
+        "How do I add a page to the exhibitor menu?",
+        "FAQ page edit kaise karun",
+        "home page text change"
+      ],
+      "steps": [
+        {
+          "text": "Open Content › Menu and Pages.",
+          "path": "menu-and-pages",
+          "label": "Menu and Pages"
+        },
+        {
+          "text": "New page: Manage Pages › **Add New** → Page Name, Page Type (Public/Private) → Save.",
+          "path": "menu-and-pages",
+          "label": "Add New"
+        },
+        {
+          "text": "Edit content: ✎ on the page → **Manage Content** → **Edit Page Content** on a section → **Update Page**.",
+          "path": null,
+          "label": "Manage Content"
+        },
+        {
+          "text": "Menu: Manage Menu › **Add New** → Label, Menu Page → Save. Drag items and click **Save Position** to reorder.",
+          "path": null,
+          "label": "Save Position"
+        }
+      ],
+      "notes": "Saved changes are published immediately."
+    },
+    {
+      "id": "resources",
+      "title": "Upload a resource document for exhibitors",
+      "side": "admin",
+      "tags": [
+        "resource",
+        "document",
+        "pdf",
+        "manual",
+        "exhibitor kit",
+        "file upload for exhibitors"
+      ],
+      "questions": [
+        "How do I upload an exhibitor manual?",
+        "resources mein file kaise dalun"
+      ],
+      "steps": [
+        {
+          "text": "Open Content › Resources.",
+          "path": "resource-management",
+          "label": "Resources"
+        },
+        {
+          "text": "Click **Add New**, give a Resource Name and upload the document → save.",
+          "path": "resource-management",
+          "label": "Add New"
+        }
+      ],
+      "notes": "Exhibitors see it under RESOURCES."
+    },
+    {
+      "id": "email-templates",
+      "title": "Edit email templates (welcome, invoice, booth staff…)",
+      "side": "admin",
+      "tags": [
+        "email template",
+        "welcome email",
+        "email",
+        "reply to",
+        "bcc",
+        "merge fields",
+        "email change"
+      ],
+      "questions": [
+        "How do I change the welcome email?",
+        "email template edit kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Open Content › Email Templates.",
+          "path": "email-templates",
+          "label": "Email Templates"
+        },
+        {
+          "text": "Pick **Type** (Welcome, Event Assignment, Admin Notification, Invoice Notification, Booth Queue, Booth Staff, Email Verification, Reset Password).",
+          "path": null,
+          "label": "Type"
+        },
+        {
+          "text": "Edit From Name, Reply To, BCC, Subject, Content (use **Insert Merge Fields**).",
+          "path": null,
+          "label": "Insert Merge Fields"
+        },
+        {
+          "text": "**Preview & Send** to test, then **Save**. 'Mark as Default' to make it the default template.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "invoice-editor",
+      "title": "Customize the invoice PDF",
+      "side": "admin",
+      "tags": [
+        "invoice template",
+        "invoice design",
+        "invoice logo",
+        "payment terms",
+        "invoice editor",
+        "payment link on invoice"
+      ],
+      "questions": [
+        "How do I put our logo on the invoice?",
+        "invoice ka design kaise change karun"
+      ],
+      "steps": [
+        {
+          "text": "Open Content › Invoice Editor.",
+          "path": "pdf-invoice-configurable",
+          "label": "Invoice Editor"
+        },
+        {
+          "text": "Template tab: pick Type (Paid In Full / Balance Due / Refunded / Failed), set Title, Header Logo, colours, Top/Bottom Content → Save Changes.",
+          "path": null,
+          "label": "Save Changes"
+        },
+        {
+          "text": "Settings tab: Attach Invoice with Email, Payment Link on Invoice, Payment Terms → Save Changes.",
+          "path": null,
+          "label": "Settings"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "company-fields",
+      "title": "Add / change registration and company fields",
+      "side": "admin",
+      "tags": [
+        "company fields",
+        "registration form",
+        "form field",
+        "custom field",
+        "required field",
+        "sign up form",
+        "field",
+        "fields",
+        "company field",
+        "user field",
+        "form",
+        "registration",
+        "khana",
+        "add field",
+        "new field"
+      ],
+      "questions": [
+        "How do I add a field to the registration form?",
+        "sign up form mein field kaise add karun",
+        "delete field",
+        "delete a field",
+        "remove field",
+        "delete registration field",
+        "how to add a company field",
+        "how to add a company filed",
+        "company field kaise add karun",
+        "company fields kahan hain",
+        "registration mein field add karna",
+        "add field to company profile",
+        "naya field banana",
+        "custom field add karna",
+        "forms company fields"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein scroll karke **Forms** section dhundo aur click karo.",
+          "path": "company-fields",
+          "label": "Forms"
+        },
+        {
+          "text": "**Company Fields** par click karo (Companies flyout mein nahi — yeh alag Forms section hai).",
+          "path": "company-fields",
+          "label": "Company Fields"
+        },
+        {
+          "text": "Top right mein **Add New Field ▾** click karo → **Company Fields** ya **User Fields** choose karo.",
+          "path": "company-fields",
+          "label": "Add New Field"
+        },
+        {
+          "text": "Field Label, Field Type, Required?, Display on Registration? fill karo.",
+          "path": null,
+          "label": "Field Label"
+        },
+        {
+          "text": "**Save All Changes** click karo.",
+          "path": null,
+          "label": "Save All Changes"
+        }
+      ],
+      "notes": "Forms sidebar mein Companies ke neeche scroll karne par milta hai — Companies flyout mein nahi."
+    },
+    {
+      "id": "signup-login-links",
+      "title": "Where is the exhibitor sign-up link / login link?",
+      "side": "admin",
+      "tags": [
+        "sign up link",
+        "registration link",
+        "login link",
+        "portal url",
+        "link",
+        "url",
+        "share link",
+        "registration url"
+      ],
+      "questions": [
+        "Where is the registration link?",
+        "exhibitor ko kaunsa link bhejun",
+        "portal login url"
+      ],
+      "steps": [
+        {
+          "text": "Open Event Setup.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "At the top: **Sign-Up Link** (…/erc/<event>/sign-up) and **Login Link** (…/erc/<event>/login) — click **Copy**.",
+          "path": null,
+          "label": "Copy"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "event-setup",
+      "title": "Event details, branding, registration flow, notifications",
+      "side": "admin",
+      "tags": [
+        "event setup",
+        "event name",
+        "event date",
+        "logo",
+        "branding",
+        "colors",
+        "registration flow",
+        "notifications",
+        "admin notification",
+        "insurance",
+        "time zone",
+        "currency"
+      ],
+      "questions": [
+        "How do I change the event dates?",
+        "logo kaise change karun",
+        "who gets new order emails",
+        "turn off booth step in registration"
+      ],
+      "steps": [
+        {
+          "text": "Open Event Setup.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "**1 Event Details**: name, dates, venue, Portal URL, Currency, Time Zone → Save Changes.",
+          "path": null,
+          "label": "Event Details"
+        },
+        {
+          "text": "**2 Branding**: colours, Background Image, Header, Logo, Favicon → Save Changes.",
+          "path": null,
+          "label": "Branding"
+        },
+        {
+          "text": "**3 Registration Flow**: page title, Application Process, Paid Registration, which steps show (Select Package / Booth / Add-Ons…) → Save Changes.",
+          "path": null,
+          "label": "Registration Flow"
+        },
+        {
+          "text": "**4 Notifications**: emails for New Registrations, New Orders, Invoice Payments, New Applicants, Booth Staff, Pre-Paid Booth → Save Changes.",
+          "path": null,
+          "label": "Notifications"
+        },
+        {
+          "text": "**5 Insurance** (Vertical Insure) and **6 Advanced Settings** (labels, shop options, home page cards, AI) → Save Changes.",
+          "path": null,
+          "label": "Advanced Settings"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "reports",
+      "title": "Run and export reports",
+      "side": "admin",
+      "tags": [
+        "report",
+        "reports",
+        "export",
+        "excel",
+        "csv",
+        "invoice report",
+        "payment report",
+        "booth report",
+        "activity log",
+        "who changed",
+        "who deleted",
+        "change history",
+        "audit",
+        "log",
+        "email report"
+      ],
+      "questions": [
+        "How do I export all invoices?",
+        "report kaise nikalun",
+        "who deleted this booth?",
+        "see bounced emails"
+      ],
+      "steps": [
+        {
+          "text": "Open Reports and pick a report (Invoice, Payment, Product, Booth, Company, User, Task, Booth Staff, Email, Activity Log).",
+          "path": "invoice-report",
+          "label": "Reports"
+        },
+        {
+          "text": "Use the tabs (e.g. Open Balances, Paid in Full), Search, and '1 Event Selected' to include other events.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Click **⋯** → Export as CSV / Export as Excel (.xlsx). Save As keeps your column/filter setup.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": "Activity Log Report shows who changed what (Feature, Action, Previous/Latest data)."
+    },
+    {
+      "id": "ex-register",
+      "title": "Exhibitor: register for the event (sign up)",
+      "side": "exhibitor",
+      "tags": [
+        "register",
+        "sign up",
+        "registration",
+        "new exhibitor",
+        "join",
+        "signup"
+      ],
+      "questions": [
+        "How do I register as an exhibitor?",
+        "registration kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Open the event Sign-Up link (…/erc/<event>/sign-up) that the organizer shared.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "**Register**: search your company or type a new name, fill contact and address → Next.",
+          "path": null,
+          "label": "Next"
+        },
+        {
+          "text": "Choose a **Package**, a **Booth** (click an Available booth → Reserve Booth) and **Add-Ons** → Next.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "**Review Cart** (apply discount code if you have one) → **Checkout**: billing, payment method → **Place Order**.",
+          "path": null,
+          "label": "Place Order"
+        },
+        {
+          "text": "You get a Welcome Email with your login.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ex-buy-booth",
+      "title": "Exhibitor: buy / reserve a booth",
+      "side": "exhibitor",
+      "tags": [
+        "reserve booth",
+        "buy booth",
+        "select booth",
+        "booth",
+        "booth lena"
+      ],
+      "questions": [
+        "How do I reserve a booth?",
+        "booth kaise book karun"
+      ],
+      "steps": [
+        {
+          "text": "Click **FLOOR PLAN** in the top menu.",
+          "path": null,
+          "label": "FLOOR PLAN"
+        },
+        {
+          "text": "Click an Available booth → check number and price → **Reserve Booth**.",
+          "path": null,
+          "label": "Reserve Booth"
+        },
+        {
+          "text": "Click the cart icon (top right) → Review Cart → Next → choose payment → **Place Order**.",
+          "path": null,
+          "label": "shopping_cart"
+        }
+      ],
+      "notes": "If there is no Reserve Booth button the booth is not for sale or not available for your level — contact the organizer."
+    },
+    {
+      "id": "ex-buy-addon",
+      "title": "Exhibitor: buy an add-on",
+      "side": "exhibitor",
+      "tags": [
+        "add-on",
+        "addon",
+        "buy",
+        "shop",
+        "extra",
+        "sponsorship"
+      ],
+      "questions": [
+        "How do I buy an add-on?",
+        "add on kaise khareedun"
+      ],
+      "steps": [
+        {
+          "text": "Click **ADD-ONS** in the top menu.",
+          "path": "shop",
+          "label": "ADD-ONS"
+        },
+        {
+          "text": "Set quantity and click **Add to Cart**.",
+          "path": null,
+          "label": "Add to Cart"
+        },
+        {
+          "text": "Cart icon (top right) → Review Cart → Next → Checkout → **Place Order**.",
+          "path": null,
+          "label": "shopping_cart"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ex-discount",
+      "title": "Exhibitor: apply a discount code",
+      "side": "exhibitor",
+      "tags": [
+        "discount",
+        "coupon",
+        "promo code",
+        "code"
+      ],
+      "questions": [
+        "Where do I enter my discount code?",
+        "coupon code kahan dalun"
+      ],
+      "steps": [
+        {
+          "text": "Open the cart (cart icon at the top right) → **Review Cart**.",
+          "path": null,
+          "label": "shopping_cart"
+        },
+        {
+          "text": "Type the code in **Discount Code** and click **Apply Discount** (not case-sensitive).",
+          "path": null,
+          "label": "Apply Discount"
+        },
+        {
+          "text": "The saving shows in Order Summary; continue to Checkout.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "ex-pay-invoice",
+      "title": "Exhibitor: pay an open invoice / balance",
+      "side": "exhibitor",
+      "tags": [
+        "pay invoice",
+        "pay balance",
+        "open balance",
+        "payment",
+        "credit card",
+        "pay",
+        "invoice pay"
+      ],
+      "questions": [
+        "How do I pay my invoice?",
+        "invoice ki payment kaise karun",
+        "pay remaining balance"
+      ],
+      "steps": [
+        {
+          "text": "Profile icon → **My Orders** (or Home › Open Balance › View Invoices).",
+          "path": "invoice-history",
+          "label": "My Orders"
+        },
+        {
+          "text": "In **Open Invoices** click the card icon (**Pay Invoice**) on the invoice.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Check billing, enter **Pay Today** amount, choose how you will pay → **Make Payment**.",
+          "path": null,
+          "label": "Make Payment"
+        }
+      ],
+      "notes": "The document icon opens the invoice PDF."
+    },
+    {
+      "id": "ex-tasks",
+      "title": "Exhibitor: submit tasks (logo, description, COI…)",
+      "side": "exhibitor",
+      "tags": [
+        "task",
+        "tasks",
+        "upload logo",
+        "submit",
+        "deliverable",
+        "coi",
+        "company description"
+      ],
+      "questions": [
+        "How do I upload my logo?",
+        "task kaise submit karun"
+      ],
+      "steps": [
+        {
+          "text": "Click **TASKS** in the top menu.",
+          "path": "task-list",
+          "label": "TASKS"
+        },
+        {
+          "text": "Fill the field or click **Choose File** to upload.",
+          "path": null,
+          "label": "Choose File"
+        },
+        {
+          "text": "Click **Submit** on that task — it turns green and shows 'Submitted'.",
+          "path": null,
+          "label": "Submit"
+        }
+      ],
+      "notes": "Each task must be submitted separately. Trash icon removes a submission."
+    },
+    {
+      "id": "ex-booth-staff",
+      "title": "Exhibitor: add booth staff",
+      "side": "exhibitor",
+      "tags": [
+        "booth staff",
+        "staff",
+        "add staff",
+        "badge",
+        "registration url",
+        "team at booth"
+      ],
+      "questions": [
+        "How do I add booth staff?",
+        "booth staff kaise add karun"
+      ],
+      "steps": [
+        {
+          "text": "Click **BOOTH STAFF** in the top menu.",
+          "path": "booth-staff",
+          "label": "BOOTH STAFF"
+        },
+        {
+          "text": "Click **New Registration**, fill First/Last Name, Email, Company Name → **Save**. Or **Copy Reg URL** and send it to staff to register themselves.",
+          "path": null,
+          "label": "New Registration"
+        }
+      ],
+      "notes": "'Registered Staff 0 of 0' means your allowance is 0 — contact the organizer."
+    },
+    {
+      "id": "ex-team",
+      "title": "Exhibitor: add another portal user (team member)",
+      "side": "exhibitor",
+      "tags": [
+        "team",
+        "add user",
+        "colleague",
+        "another login",
+        "portal user"
+      ],
+      "questions": [
+        "How do I give my colleague access?",
+        "doosre user ko access kaise dun"
+      ],
+      "steps": [
+        {
+          "text": "Profile icon → **Team**.",
+          "path": "accounts",
+          "label": "Team"
+        },
+        {
+          "text": "Click **Add** and enter their details → Save.",
+          "path": null,
+          "label": "Add"
+        }
+      ],
+      "notes": "Team members are portal users, not booth staff."
+    },
+    {
+      "id": "ex-account",
+      "title": "Exhibitor: change name or password",
+      "side": "exhibitor",
+      "tags": [
+        "password",
+        "change password",
+        "my account",
+        "profile",
+        "email change"
+      ],
+      "questions": [
+        "How do I change my password?",
+        "password kaise change karun"
+      ],
+      "steps": [
+        {
+          "text": "Profile icon → **My Account**.",
+          "path": "settings",
+          "label": "My Account"
+        },
+        {
+          "text": "Update First/Last Name → **Save Profile**; or enter Current and New password → **Save Password** (max twice per 24h).",
+          "path": null,
+          "label": "Save Password"
+        }
+      ],
+      "notes": "Email can only be changed by the organizer."
+    },
+    {
+      "id": "ex-insurance",
+      "title": "Exhibitor: certificate of insurance (COI)",
+      "side": "exhibitor",
+      "tags": [
+        "insurance",
+        "coi",
+        "certificate of insurance",
+        "liability",
+        "vertical insure"
+      ],
+      "questions": [
+        "How do I upload my insurance certificate?",
+        "COI kahan upload karun"
+      ],
+      "steps": [
+        {
+          "text": "Click the shield icon (or the red 'ALMOST THERE…' banner) at the top.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Choose **Upload Existing COI** (PDF) or **Purchase Insurance**.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Or submit the 'Certificate of Insurance (COI)' task under TASKS.",
+          "path": "task-list",
+          "label": "TASKS"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "new-event-clone",
+      "title": "Create a new event / portal (and clone an existing event into it)",
+      "side": "admin",
+      "tags": [
+        "new event",
+        "new portal",
+        "create event",
+        "create portal",
+        "clone",
+        "clone event",
+        "copy event",
+        "duplicate event",
+        "next year event",
+        "naya event",
+        "naya portal",
+        "event banana",
+        "event clone",
+        "events dropdown",
+        "create new event",
+        "clone event settings"
+      ],
+      "questions": [
+        "I am looking to create a new portal cloning an existing event",
+        "How do I create a new event?",
+        "Can I copy last year's event to a new portal?",
+        "naya portal kaise banayein",
+        "event clone kaise karein"
+      ],
+      "steps": [
+        {
+          "text": "In the top-right corner open the **Events** drop-down (next to the organization drop-down).",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "At the bottom of the list click **Create New Event** and complete the Event Setup Form (Event Details → Add Team → Registration Flow → Notifications → Insurance → Advanced Settings → Publish).",
+          "path": null,
+          "label": "Create New Event"
+        },
+        {
+          "text": "Make sure the NEW event is selected in the Events drop-down. Click the profile icon (top-right corner) → **Settings**.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "In the Settings menu click **Clone Event Settings**.",
+          "path": "settings",
+          "label": "Clone Event Settings"
+        },
+        {
+          "text": "In **From Event Portal** select the event to copy from (e.g. last year's).",
+          "path": null,
+          "label": "From Event Portal"
+        },
+        {
+          "text": "For each area choose **Clone** or **Skip**: Settings, Invoice Templates, Email Templates, Menu and Pages, Levels, Tasks, Resources, Shop, Reports, Companies/Users (Add), Company/User/Contact/Billing Fields, Floor Plan.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Tick the acknowledgement and click **Clone**.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": "Taught by ExpoGenie Support. Cloning copies INTO the event that is currently selected and cannot be undone — it can overwrite what is already in that portal. Companies and Users clone only basic info (first/last name, company, level, email).",
+      "reply": "Thank you for reaching out!\nYes, you can create a new portal by first creating a new event. From the top-right corner, open the Events drop-down and create a new event. Once the event is created, you can clone {old event} into the new event.\nI hope this helps! Please let me know if you need any further assistance.",
+      "trained": "2026-10-29"
+    },
+    {
+      "id": "home-page-cards",
+      "title": "Show / hide the cards (icons) on the exhibitor home page",
+      "side": "admin",
+      "tags": [
+        "home page",
+        "homepage",
+        "exhibitor homepage",
+        "icons",
+        "cards",
+        "home page icons",
+        "home page cards",
+        "dashboard cards",
+        "overdue tasks card",
+        "open balance card",
+        "booth staff card",
+        "booth number card",
+        "profile card",
+        "hide home page overview",
+        "home page pe icons",
+        "icons hide",
+        "icons show"
+      ],
+      "questions": [
+        "How do I update which icons are shown on the exhibitor homepage?",
+        "Can I hide the Open Balance card for exhibitors?",
+        "exhibitor home page pe kaunse icons dikhenge kaise change karun",
+        "home page cards kaise hide karein"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **6 Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Scroll down to **HOME PAGE CARDS DISPLAY**.",
+          "path": null,
+          "label": "HOME PAGE CARDS DISPLAY"
+        },
+        {
+          "text": "Turn on or off: **Show Profile Card**, **Show Overdue Tasks Card**, **Show Open Balance Card**, **Show Booth Staff Card**, **Show Booth Number Card** (and **Hide Home Page Overview** for the overview section).",
+          "path": null,
+          "label": "Show Overdue Tasks Card"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": "Taught by ExpoGenie Support. These are the cards at the top of the exhibitor HOME page (Overdue Tasks, Open Balance, Registered Staff, Booth Number, Profile). Not the menu — that is Content › Menu and Pages.",
+      "reply": "Hi {first name},\nThank you for reaching out!\nYou can update which icons appear on the exhibitor homepage by following these steps:\n\n1. Go to Event Setup → Advanced Settings.\n2. Scroll down to the relevant settings.\n3. Enable or disable the options according to your preferences, as shown in the screenshot.\n\nI hope this helps! Please let me know if you need any further assistance.",
+      "trained": "2026-10-29"
+    },
+    {
+      "id": "set-event-name-dates",
+      "title": "Change the event name, dates or venue",
+      "side": "admin",
+      "tags": [
+        "event name",
+        "event date",
+        "dates",
+        "venue",
+        "address",
+        "location",
+        "rename event",
+        "change",
+        "event",
+        "name,",
+        "dates"
+      ],
+      "questions": [
+        "How do I change the event dates?",
+        "event ka naam kaise badlun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Event Details**.",
+          "path": null,
+          "label": "Event Details"
+        },
+        {
+          "text": "Find **Event Name**. Event Name, Start Date, End Date, Venue Address, Country, State, City, Postal Code.",
+          "path": null,
+          "label": "Event Name"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-portal-url",
+      "title": "Change the portal URL (event link)",
+      "side": "admin",
+      "tags": [
+        "portal url",
+        "event url",
+        "link",
+        "slug",
+        "web address",
+        "change",
+        "portal",
+        "(event",
+        "link)"
+      ],
+      "questions": [
+        "How do I change the portal URL?",
+        "portal ka link kaise change karun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Event Details**.",
+          "path": null,
+          "label": "Event Details"
+        },
+        {
+          "text": "Find **Portal URL**. Portal URL = https://erc.expogenie.io/erc/<slug>. Changing it changes every link you already shared.",
+          "path": null,
+          "label": "Portal URL"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-currency-timezone",
+      "title": "Change currency or time zone",
+      "side": "admin",
+      "tags": [
+        "currency",
+        "cad",
+        "usd",
+        "dollar",
+        "time zone",
+        "timezone",
+        "change",
+        "currency",
+        "time",
+        "zone"
+      ],
+      "questions": [
+        "How do I change the currency to CAD?",
+        "time zone kaise change karun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Event Details**.",
+          "path": null,
+          "label": "Event Details"
+        },
+        {
+          "text": "Find **Currency**. Currency (prices/invoices) and Time Zone (dates and due dates).",
+          "path": null,
+          "label": "Currency"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-branding-colors",
+      "title": "Change portal colours (primary, secondary, button font)",
+      "side": "admin",
+      "tags": [
+        "color",
+        "colour",
+        "brand",
+        "branding",
+        "theme",
+        "button color",
+        "change",
+        "portal",
+        "colours",
+        "(primary,"
+      ],
+      "questions": [
+        "How do I change the portal colors?",
+        "portal ka color kaise badlun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Branding**.",
+          "path": null,
+          "label": "Branding"
+        },
+        {
+          "text": "Find **Primary Color**. Primary Color (buttons and icons), Secondary Color (action buttons), Button Font Color.",
+          "path": null,
+          "label": "Primary Color"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-logo-header",
+      "title": "Upload logo, header, favicon or background image",
+      "side": "admin",
+      "tags": [
+        "logo",
+        "header",
+        "banner",
+        "favicon",
+        "background image",
+        "branding",
+        "image",
+        "upload",
+        "logo,",
+        "header,",
+        "favicon"
+      ],
+      "questions": [
+        "How do I change the logo on the portal?",
+        "header image kaise lagaun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Branding**.",
+          "path": null,
+          "label": "Branding"
+        },
+        {
+          "text": "Find **Logo (150 x 150 px, or any square image)**. Event Overview Background Image (2560×884), Header (1800×325), Logo (150×150), Favicon (50×50).",
+          "path": null,
+          "label": "Logo (150 x 150 px, or any square image)"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-registration-steps",
+      "title": "Turn registration steps on/off (package, booth, add-ons…)",
+      "side": "admin",
+      "tags": [
+        "registration flow",
+        "sign up steps",
+        "registration steps",
+        "skip booth",
+        "remove booth step",
+        "registration page title",
+        "welcome page",
+        "turn",
+        "registration",
+        "steps",
+        "(package,"
+      ],
+      "questions": [
+        "How do I remove the booth selection from registration?",
+        "registration mein add-ons ka step kaise hataun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Registration Flow**.",
+          "path": null,
+          "label": "Registration Flow"
+        },
+        {
+          "text": "Find **Select Booth**. Toggle the sign-up steps: Welcome!, Register, Select Package, Select Booth, Add-Ons, Review Cart, Checkout, Confirmation; ✎ edits each step's text. Also Registration Page Title.",
+          "path": null,
+          "label": "Select Booth"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-application-process",
+      "title": "Require an application before purchase (approval)",
+      "side": "admin",
+      "tags": [
+        "application",
+        "approval",
+        "approve exhibitors",
+        "application process",
+        "review before buying",
+        "require",
+        "application",
+        "before",
+        "purchase"
+      ],
+      "questions": [
+        "Can exhibitors apply first and we approve them?",
+        "approval ke baad purchase kaise karwaun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Registration Flow**.",
+          "path": null,
+          "label": "Registration Flow"
+        },
+        {
+          "text": "Find **Application Process**. Application Process: sponsors must complete an application form before purchasing; review in Companies › Pending Review.",
+          "path": null,
+          "label": "Application Process"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-paid-registration",
+      "title": "Paid registration (buy before accessing the portal)",
+      "side": "admin",
+      "tags": [
+        "paid registration",
+        "free registration",
+        "shop wizard",
+        "pay before access",
+        "paid",
+        "registration",
+        "(buy",
+        "before"
+      ],
+      "questions": [
+        "How do I let exhibitors register without paying?",
+        "registration free kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Registration Flow**.",
+          "path": null,
+          "label": "Registration Flow"
+        },
+        {
+          "text": "Find **Paid Registration**. Paid Registration: exhibitors go through the Shop Wizard to make a purchase before accessing their portal.",
+          "path": null,
+          "label": "Paid Registration"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-admin-notifications",
+      "title": "Who gets notified of new registrations / orders / payments",
+      "side": "admin",
+      "tags": [
+        "notification",
+        "notifications",
+        "admin email",
+        "new order email",
+        "alert",
+        "notify me",
+        "payment notification",
+        "gets",
+        "notified",
+        "registrations",
+        "orders"
+      ],
+      "questions": [
+        "How do I get an email when someone places an order?",
+        "new registration ki email kis ko jaye"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Notifications**.",
+          "path": null,
+          "label": "Notifications"
+        },
+        {
+          "text": "Find **New Orders**. Notification emails for: New Registrations, New Orders, Invoice Payments, New Applicants, New Booth Staff Registration / change, Pre-Paid Booth Assignments.",
+          "path": null,
+          "label": "New Orders"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-insurance",
+      "title": "Turn on exhibitor insurance (Vertical Insure / COI)",
+      "side": "admin",
+      "tags": [
+        "insurance",
+        "vertical insure",
+        "coi",
+        "liability",
+        "insurance banner",
+        "turn off insurance",
+        "turn",
+        "exhibitor",
+        "insurance",
+        "(vertical"
+      ],
+      "questions": [
+        "How do I turn off the insurance banner?",
+        "insurance kaise enable karun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Insurance**.",
+          "path": null,
+          "label": "Insurance"
+        },
+        {
+          "text": "Find **Enable Insurance Integration**. Enable Insurance Integration registers the event with Vertical Insure; exhibitors then see the insurance banner and can buy cover or upload a COI.",
+          "path": null,
+          "label": "Enable Insurance Integration"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-default-level",
+      "title": "Default level for new exhibitors",
+      "side": "admin",
+      "tags": [
+        "default level",
+        "level",
+        "exhibitor level",
+        "default",
+        "level",
+        "exhibitors"
+      ],
+      "questions": [
+        "What level do new exhibitors get?",
+        "default level kaise set karun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Default Level Assignment**. Default Level Assignment: level given when the purchase/registration doesn't assign one.",
+          "path": null,
+          "label": "Default Level Assignment"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-company-label",
+      "title": "Rename 'Company' (e.g. to Sponsor / Exhibitor)",
+      "side": "admin",
+      "tags": [
+        "company label",
+        "rename company",
+        "sponsor label",
+        "exhibitor label",
+        "wording",
+        "rename",
+        "'company'",
+        "(e.g.",
+        "sponsor"
+      ],
+      "questions": [
+        "Can we call companies 'Sponsors' instead?",
+        "company ka label kaise change karun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Company Label**. Company Label (Singular) and Companies Label (Plural) — what the portal calls companies.",
+          "path": null,
+          "label": "Company Label"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-portal-users",
+      "title": "Let exhibitors add more portal users (team)",
+      "side": "admin",
+      "tags": [
+        "portal users",
+        "team members",
+        "add colleague",
+        "more users",
+        "team",
+        "exhibitors",
+        "more",
+        "portal",
+        "users"
+      ],
+      "questions": [
+        "Can exhibitors add their colleagues?",
+        "exhibitor apni team kaise add kare"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Allow Users to Add More Portal Users**. Allow Users to Add More Portal Users — exhibitors can add colleagues under Profile › Team.",
+          "path": null,
+          "label": "Allow Users to Add More Portal Users"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-max-packages",
+      "title": "Limit how many packages an exhibitor can buy",
+      "side": "admin",
+      "tags": [
+        "max packages",
+        "one package",
+        "limit packages",
+        "allowed packages",
+        "limit",
+        "many",
+        "packages",
+        "exhibitor"
+      ],
+      "questions": [
+        "How do I allow only one package per exhibitor?",
+        "ek se zyada package na le sake"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Number of allowed Packages**. Number of allowed Packages (blank = unlimited). Same setting is in Shop › Advanced › Shop Settings.",
+          "path": null,
+          "label": "Number of allowed Packages"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-terms",
+      "title": "Require Terms and Conditions at checkout",
+      "side": "admin",
+      "tags": [
+        "terms",
+        "terms and conditions",
+        "t&c",
+        "accept terms",
+        "checkout terms",
+        "require",
+        "terms",
+        "conditions",
+        "checkout"
+      ],
+      "questions": [
+        "How do I add terms and conditions to checkout?",
+        "terms and conditions kaise lagaun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Enable Terms and Conditions**. Enable Terms and Conditions adds a required accept box at checkout; edit the text in Content › Menu and Pages › page 'Terms And Conditions'.",
+          "path": null,
+          "label": "Enable Terms and Conditions"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-groups-open",
+      "title": "Open product groups by default",
+      "side": "admin",
+      "tags": [
+        "groups",
+        "product groups",
+        "expand groups",
+        "collapsed",
+        "open",
+        "product",
+        "groups",
+        "default"
+      ],
+      "questions": [
+        "How do I make product groups open by default?"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Open Groups By Default**. Open Groups By Default — product groups show expanded in the shop.",
+          "path": null,
+          "label": "Open Groups By Default"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-hide-discount",
+      "title": "Hide the discount code box at checkout",
+      "side": "admin",
+      "tags": [
+        "hide discount",
+        "discount field",
+        "coupon box",
+        "promo code box",
+        "hide",
+        "discount",
+        "code",
+        "checkout"
+      ],
+      "questions": [
+        "How do I hide the discount code field?",
+        "discount code ka box kaise hataun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Hide Discount Code Field**. Hide Discount Code Field — removes the code box from the cart.",
+          "path": null,
+          "label": "Hide Discount Code Field"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-show-inventory",
+      "title": "Show / hide remaining stock on products",
+      "side": "admin",
+      "tags": [
+        "inventory",
+        "stock",
+        "remaining",
+        "quantity left",
+        "sold out",
+        "show",
+        "hide",
+        "remaining",
+        "stock"
+      ],
+      "questions": [
+        "How do I hide how many packages are left?",
+        "stock count kaise chupaun"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **Show Inventory**. Show Inventory — shows how many of each product are left.",
+          "path": null,
+          "label": "Show Inventory"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-ai-features",
+      "title": "Turn ERC AI features on/off",
+      "side": "admin",
+      "tags": [
+        "ai",
+        "ai features",
+        "chateg",
+        "ai discovery",
+        "turn",
+        "features"
+      ],
+      "questions": [
+        "How do I turn on AI features?"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup** (left menu).",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **Advanced Settings**.",
+          "path": null,
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Find **AI Features**. ENABLE AI › AI Features.",
+          "path": null,
+          "label": "AI Features"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-hide-booth-price",
+      "title": "Hide booth prices / exhibitor names on the public floor plan",
+      "side": "admin",
+      "tags": [
+        "hide price",
+        "booth price public",
+        "hide exhibitor names",
+        "public floor plan",
+        "reserved booth",
+        "hide",
+        "booth",
+        "prices",
+        "exhibitor"
+      ],
+      "questions": [
+        "How do I hide booth prices on the public floor plan?",
+        "floor plan pe price kaise chupaun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Floor Plan** (left menu).",
+          "path": "floorplan",
+          "label": "Floor Plan"
+        },
+        {
+          "text": "Click **Settings ⚙** on the floor plan card.",
+          "path": null,
+          "label": "Settings"
+        },
+        {
+          "text": "Find **Hide Booth Price on Public View**. Floor Plan Visibility: Hide Exhibitor Details, Hide Reserved Booth Exhibitor Details, Hide Booth Price on Public View. Click **Save**.",
+          "path": null,
+          "label": "Hide Booth Price on Public View"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-booths-per-user",
+      "title": "Limit booths per exhibitor / pre-paid booths",
+      "side": "admin",
+      "tags": [
+        "booths per user",
+        "allowed booths",
+        "booth limit",
+        "pre-paid",
+        "prepaid",
+        "zoom",
+        "limit",
+        "booths",
+        "exhibitor",
+        "pre-paid"
+      ],
+      "questions": [
+        "How many booths can one exhibitor buy?",
+        "ek exhibitor kitne booth le sakta hai"
+      ],
+      "steps": [
+        {
+          "text": "Open **Floor Plan** (left menu).",
+          "path": "floorplan",
+          "label": "Floor Plan"
+        },
+        {
+          "text": "Click **Settings ⚙** on the floor plan card.",
+          "path": null,
+          "label": "Settings"
+        },
+        {
+          "text": "Find **Number of Allowed Booths Per User**. Number of Allowed Booths Per User, Default Floor Plan Zoom Percentage, Pre-paid (assign booth without checkout). Click **Save**. Per level: Companies › Levels › Number of Allowed Booths.",
+          "path": null,
+          "label": "Number of Allowed Booths Per User"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "floorplan-locked",
+      "title": "'Your floor plan is currently locked' warning",
+      "side": "admin",
+      "tags": [
+        "floor plan locked",
+        "locked",
+        "red banner",
+        "important floor plan",
+        "exit editor",
+        "'your",
+        "floor",
+        "plan",
+        "currently"
+      ],
+      "questions": [
+        "Why does it say my floor plan is locked?",
+        "floor plan locked ka message"
+      ],
+      "steps": [
+        {
+          "text": "Open **Floor Plan** and click **Edit ✎**.",
+          "path": "floorplan",
+          "label": "Edit"
+        },
+        {
+          "text": "Click **Exit** in the editor toolbar.",
+          "path": null,
+          "label": "Exit"
+        }
+      ],
+      "notes": "The red banner appears when someone left the floor plan editor without clicking Exit. Open the editor and click Exit (Save first if you made changes)."
+    },
+    {
+      "id": "set-booth-staff-public-form",
+      "title": "Booth staff public registration form / exhibitor permissions",
+      "side": "admin",
+      "tags": [
+        "booth staff form",
+        "staff registration link",
+        "exhibitor add staff",
+        "hide staff count",
+        "booth",
+        "staff",
+        "public",
+        "registration"
+      ],
+      "questions": [
+        "How do I stop exhibitors adding booth staff?",
+        "booth staff form kaise on karun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Companies › More › Booth Staff**.",
+          "path": "booth-staff",
+          "label": "Booth Staff"
+        },
+        {
+          "text": "Click **Booth Staff Settings**.",
+          "path": null,
+          "label": "Booth Staff Settings"
+        },
+        {
+          "text": "Find **Enable Booth Staff Registration Form?**. Enable Booth Staff Registration Form?, Allow Exhibitor to add Booth Staff?, Allow exhibitor to edit & delete booth Staff?, Hide Registered Booth Staff Count For Exhibitor?. Click **Save**.",
+          "path": null,
+          "label": "Enable Booth Staff Registration Form?"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-invoice-email-link",
+      "title": "Attach invoice to emails / payment link / payment terms",
+      "side": "admin",
+      "tags": [
+        "attach invoice",
+        "payment link",
+        "payment terms",
+        "net 30",
+        "invoice email",
+        "attach",
+        "invoice",
+        "emails",
+        "payment"
+      ],
+      "questions": [
+        "How do I add payment terms to the invoice?",
+        "invoice pe payment link kaise lagaun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Content › Invoice Editor**.",
+          "path": "pdf-invoice-configurable",
+          "label": "Invoice Editor"
+        },
+        {
+          "text": "Open the **Settings** tab.",
+          "path": null,
+          "label": "Settings"
+        },
+        {
+          "text": "Find **Payment Terms**. Attach Invoice with Email, Enable/Disable Payment Link on Invoice, Payment Terms. Click **Save Changes**.",
+          "path": null,
+          "label": "Payment Terms"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "set-task-lock",
+      "title": "Lock a task after submission or due date / submission emails",
+      "side": "admin",
+      "tags": [
+        "lock task",
+        "task notification",
+        "due date passed",
+        "task email",
+        "lock",
+        "task",
+        "after",
+        "submission"
+      ],
+      "questions": [
+        "How do I lock a task after the deadline?",
+        "task submit hone ke baad lock kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Content › Tasks**.",
+          "path": "tasks",
+          "label": "Tasks"
+        },
+        {
+          "text": "Click the sliders icon on the task card.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Find **Lock Task When Submitted**. Advanced Settings: Submission Notification + Notification Emails, Lock Task When Submitted, Lock Task When Due Date is passed. Click **Save**, then **Save All Changes**.",
+          "path": null,
+          "label": "Lock Task When Submitted"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "registration-custom-fields",
+      "title": "Add your own questions/fields to the Register (sign-up) page",
+      "side": "admin",
+      "tags": [
+        "register page",
+        "registration form",
+        "sign up form",
+        "custom field",
+        "custom question",
+        "add question",
+        "website field",
+        "why do you want to exhibit",
+        "customize registration",
+        "registration fields",
+        "form field",
+        "sign up fields",
+        "registration customize"
+      ],
+      "questions": [
+        "Can I customize the Register page to ask for their website?",
+        "How do I add a question to the registration form?",
+        "registration form mein apna sawal kaise add karun",
+        "sign up page pe website field kaise dikhaun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Forms › Company Fields**.",
+          "path": "company-fields",
+          "label": "Company Fields"
+        },
+        {
+          "text": "For an existing field (e.g. **Company Website URL**) turn on **Display on Registration?** (and **Required?** if needed).",
+          "path": null,
+          "label": "Display on Registration?"
+        },
+        {
+          "text": "For a new question click **Add New Field ▾ → Company Fields** (or User Fields).",
+          "path": null,
+          "label": "Add New Field"
+        },
+        {
+          "text": "Enter the **Field Label** (e.g. “Why do you want to exhibit?”), choose **Field Type** (Text Box, Text Area, Dropdown…), set **Required?** and **Display on Registration?**.",
+          "path": null,
+          "label": "Field Label"
+        },
+        {
+          "text": "Click **Save All Changes**. The field now shows on the Register step of the sign-up page.",
+          "path": null,
+          "label": "Save All Changes"
+        }
+      ],
+      "notes": "The Register step only shows Company Fields / User Fields that have 'Display on Registration?' turned on.",
+      "trained": "2026-10-29"
+    },
+    {
+      "id": "applications-review",
+      "title": "Where submitted applications appear + approve them",
+      "side": "admin",
+      "tags": [
+        "application",
+        "applications",
+        "applicant",
+        "applicants",
+        "review application",
+        "approve",
+        "approval",
+        "pending review",
+        "submitted application",
+        "where is my application",
+        "moderate applicants",
+        "application kahan",
+        "approve kaise"
+      ],
+      "questions": [
+        "I submitted a test registration but can't see where the application appears for review",
+        "Where do I approve applicants?",
+        "application kahan nazar aati hai",
+        "applicants ko approve kaise karun"
+      ],
+      "steps": [
+        {
+          "text": "Open **Companies › More › Pending Review**.",
+          "path": "review-applicants",
+          "label": "Pending Review"
+        },
+        {
+          "text": "Open the **Applicants** tab — every submitted application is listed with its status (Pending / Approved).",
+          "path": null,
+          "label": "Applicants"
+        },
+        {
+          "text": "To approve or reject applicants before they can buy, turn on **Event Setup › Registration Flow › Moderate Applicants** (needs **Application Process** on) → **Save Changes**. If Moderate Applicants is off, applicants are auto-approved.",
+          "path": "event-setup",
+          "label": "Registration Flow"
+        }
+      ],
+      "notes": "The Applicants tab only appears when Application Process is on. 'Incomplete Registrations' tab = people who started but didn't finish checkout.",
+      "trained": "2026-10-29"
+    },
+    {
+      "id": "application-notification",
+      "title": "Get an email when someone submits an application / registers",
+      "side": "admin",
+      "tags": [
+        "notification",
+        "application notification",
+        "new applicant email",
+        "notify",
+        "email when application",
+        "new registration email",
+        "alert",
+        "application submit email",
+        "notification kaise"
+      ],
+      "questions": [
+        "Is it possible to receive a notification when someone submits the application?",
+        "new application ki email kaise aaye"
+      ],
+      "steps": [
+        {
+          "text": "Go to **Event Setup**.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "Open step **4 Notifications**.",
+          "path": null,
+          "label": "Notifications"
+        },
+        {
+          "text": "Under REGISTRATIONS, ORDERS, AND PAYMENTS add your email to **New Applicants** (and **New Registrations** if wanted).",
+          "path": null,
+          "label": "New Applicants"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": "New Applicants = 'Notification when a new application has been submitted.'",
+      "trained": "2026-10-29"
+    },
+    {
+      "id": "register-company-search",
+      "title": "Register page: does searching an existing company auto-fill the fields?",
+      "side": "admin",
+      "tags": [
+        "search company",
+        "company search",
+        "auto populate",
+        "autofill",
+        "auto fill",
+        "register page search",
+        "existing company",
+        "fields not filled"
+      ],
+      "questions": [
+        "If they search for their company on the Register page, why don't the other fields fill in?",
+        "company search se fields khud kyun nahi bharte"
+      ],
+      "steps": [
+        {
+          "text": "This is by design: the **Search Company** box at the top of the Register step only finds/links an existing company name — it does not auto-fill the contact and address fields.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "The registrant fills in the remaining fields themselves.",
+          "path": null,
+          "label": null
+        }
+      ],
+      "notes": "Confirmed by ExpoGenie Support: by design, no setting changes it.",
+      "trained": "2026-10-29"
+    },
+    {
+      "id": "settings-team-admins",
+      "title": "Add event admins (team members who manage the event)",
+      "side": "admin",
+      "tags": [
+        "event admin",
+        "add admin",
+        "team",
+        "admin access",
+        "give access",
+        "colleague access",
+        "manage event admins",
+        "admin banana"
+      ],
+      "questions": [
+        "How do I give a colleague admin access to the event?",
+        "event admin kaise add karun"
+      ],
+      "steps": [
+        {
+          "text": "Click the profile icon (top-right corner) → **Settings**.",
+          "path": "settings",
+          "label": null
+        },
+        {
+          "text": "Open **Team** (Manage Event Admins).",
+          "path": null,
+          "label": "Team"
+        },
+        {
+          "text": "Click **Add New** / **Select Event Admins** and pick the person.",
+          "path": null,
+          "label": "Add New"
+        },
+        {
+          "text": "Click **Save Changes**.",
+          "path": null,
+          "label": "Save Changes"
+        }
+      ],
+      "notes": "Event admins = organizer staff. Exhibitor logins are added in Companies › Users."
+    },
+    {
+      "id": "settings-lead-scanning",
+      "title": "Lead scanning price / URL",
+      "side": "admin",
+      "tags": [
+        "lead scanning",
+        "lead retrieval",
+        "badge scanning",
+        "lead scan price"
+      ],
+      "questions": [
+        "How do I set the lead scanning price?",
+        "lead scanning kahan set hota hai"
+      ],
+      "steps": [
+        {
+          "text": "Click the profile icon (top-right corner) → **Settings**.",
+          "path": "settings",
+          "label": null
+        },
+        {
+          "text": "Open **Lead Scanning**.",
+          "path": null,
+          "label": "Lead Scanning"
+        },
+        {
+          "text": "Set **Price** and **URL** → **Save Settings**.",
+          "path": null,
+          "label": "Save Settings"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "settings-white-label",
+      "title": "White label domain (custom URL / email domain)",
+      "side": "admin",
+      "tags": [
+        "white label",
+        "custom domain",
+        "own domain",
+        "cname",
+        "email domain",
+        "branded url"
+      ],
+      "questions": [
+        "Can we use our own domain for the portal?",
+        "white label kaise set karein"
+      ],
+      "steps": [
+        {
+          "text": "Click the profile icon (top-right corner) → **Settings**.",
+          "path": "settings",
+          "label": null
+        },
+        {
+          "text": "Open **White Label**.",
+          "path": null,
+          "label": "White Label"
+        },
+        {
+          "text": "Tab **White Label URL**: enter your URL (e.g. CNAME.your-domain.com) → **Continue** → Domain Verification → Confirmation. Tab **Email Sub Domain** for sending email from your domain.",
+          "path": null,
+          "label": "White Label URL"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "settings-rest-api",
+      "title": "ExpoGenie REST API / MCP credentials",
+      "side": "admin",
+      "tags": [
+        "api",
+        "rest api",
+        "mcp",
+        "integration",
+        "api credentials",
+        "api key"
+      ],
+      "questions": [
+        "Do you have an API?",
+        "API credentials kahan milte hain"
+      ],
+      "steps": [
+        {
+          "text": "Click the profile icon (top-right corner) → **Settings**.",
+          "path": "settings",
+          "label": null
+        },
+        {
+          "text": "Open **ExpoGenie REST API**.",
+          "path": null,
+          "label": "ExpoGenie REST API"
+        },
+        {
+          "text": "See Base URL, API Documentation, MCP Endpoint; create credentials under **API Clients**.",
+          "path": null,
+          "label": "API Clients"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "settings-data-migration",
+      "title": "Migrate data from the legacy (old) ExpoGenie site",
+      "side": "admin",
+      "tags": [
+        "data migration",
+        "legacy",
+        "old portal",
+        "migrate",
+        "json import"
+      ],
+      "questions": [
+        "How do I migrate data from the old site?"
+      ],
+      "steps": [
+        {
+          "text": "Click the profile icon (top-right corner) → **Settings**.",
+          "path": "settings",
+          "label": null
+        },
+        {
+          "text": "Open **Data Migration**.",
+          "path": null,
+          "label": "Data Migration"
+        },
+        {
+          "text": "**Upload JSON File** and choose which areas to migrate (cannot be undone).",
+          "path": null,
+          "label": "Choose File"
+        }
+      ],
+      "notes": ""
+    },
+    {
+      "id": "settings-my-account",
+      "title": "Change my admin name or password",
+      "side": "admin",
+      "tags": [
+        "my account",
+        "change password",
+        "admin password",
+        "profile name"
+      ],
+      "questions": [
+        "How do I change my password?"
+      ],
+      "steps": [
+        {
+          "text": "Click the profile icon (top-right corner) → **Settings**.",
+          "path": "settings",
+          "label": null
+        },
+        {
+          "text": "Open **My Account**.",
+          "path": null,
+          "label": "My Account"
+        },
+        {
+          "text": "Edit name → **Save Profile**, or Current/New password → **Save Password** (max twice per 24 hours).",
+          "path": null,
+          "label": "Save Profile"
+        }
+      ],
+      "notes": ""
+    }
+  ]
+}
