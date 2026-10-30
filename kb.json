@@ -1,8 +1,8 @@
 {
   "format": "erc-guides",
   "version": 1,
-  "updated": "2026-10-29",
-  "source": "Explored on erc.expogenie.io/erc/trainagent (admin + exhibitor via Login As)",
+  "updated": "2026-10-30",
+  "source": "Explored on erc.expogenie.io/erc/trainagent (admin + exhibitor via Login As) | Tickets batch 2026-10-30",
   "guides": [
     {
       "id": "add-package",
@@ -1637,7 +1637,7 @@
           "label": "Save All Changes"
         }
       ],
-      "notes": "Forms → Company Fields yahan hain — Companies section mein nahi. Sidebar mein scroll karke Forms dhundo."
+      "notes": "Forms sidebar mein Companies ke neeche scroll karne par milta hai — Companies flyout mein nahi."
     },
     {
       "id": "signup-login-links",
@@ -3672,6 +3672,704 @@
         }
       ],
       "notes": ""
+    },
+    {
+      "id": "booth-staff-report-fields",
+      "title": "Booth Staff report mein extra fields (dietary restrictions) add karo",
+      "side": "admin",
+      "questions": [
+        "How to add dietary restrictions to booth staff report?",
+        "booth staff report mein dietary restrictions kaise add karein?",
+        "booth staff export mein fields missing hain",
+        "booth staff report customize kaise karein?",
+        "booth staff report mein column kaise add karein?"
+      ],
+      "tags": [
+        "booth staff",
+        "report",
+        "dietary",
+        "fields",
+        "export",
+        "column"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Reports** click karo.",
+          "path": "reports",
+          "label": "Reports"
+        },
+        {
+          "text": "**Booth Staff Report** open karo.",
+          "path": "reports",
+          "label": "Booth Staff Report"
+        },
+        {
+          "text": "Page ke right side par **Fields** button click karo.",
+          "path": "reports",
+          "label": "Fields"
+        },
+        {
+          "text": "Available fields mein **Dietary Restrictions** ya koi bhi needed field enable karo.",
+          "path": null,
+          "label": "Dietary Restrictions"
+        },
+        {
+          "text": "Report dobara export karo — naye fields include ho jayenge.",
+          "path": null,
+          "label": "Export"
+        }
+      ],
+      "notes": "Fields button right side par hota hai report page par. Ek baar enable karo to har export mein aayega."
+    },
+    {
+      "id": "update-expo-hours",
+      "title": "Expo hours / show hours update karo",
+      "side": "admin",
+      "questions": [
+        "How to update expo hours?",
+        "show hours kaise change karein?",
+        "expo hours kahan update hain?",
+        "event hours update karna hai",
+        "exhibition hours change karo"
+      ],
+      "tags": [
+        "expo hours",
+        "show hours",
+        "event hours",
+        "update hours"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Event Setup** click karo.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "**Event Details** section mein **Show Hours** ya **Expo Hours** field dhundo.",
+          "path": "event-setup",
+          "label": "Event Details"
+        },
+        {
+          "text": "Hours update karo aur **Save** click karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Agar Expo Hours field nahi dikh rahi to support team se contact karo — wo back-end se update kar sakte hain."
+    },
+    {
+      "id": "approve-application-assign-level",
+      "title": "Application approve karo aur company ko level assign karo",
+      "side": "admin",
+      "questions": [
+        "How to approve a company application?",
+        "application approve kaise karein?",
+        "company ko level kaise assign karein approval par?",
+        "pending application accept karna hai",
+        "approve submission and assign level"
+      ],
+      "tags": [
+        "approve",
+        "application",
+        "level",
+        "assign",
+        "submission",
+        "pending"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Companies** → **Applications** ya **Pending** section click karo.",
+          "path": "applications",
+          "label": "Applications"
+        },
+        {
+          "text": "Company ka application dhundo aur **Approve** click karo.",
+          "path": null,
+          "label": "Approve"
+        },
+        {
+          "text": "Level assign karo: agar company khud package choose karegi to **Unassigned** select karo — wo Shop Wizard mein apna package select kar sakti hai.",
+          "path": null,
+          "label": "Unassigned"
+        },
+        {
+          "text": "Agar specific level assign karna hai to dropdown se select karo aur **Confirm** click karo.",
+          "path": null,
+          "label": "Confirm"
+        }
+      ],
+      "notes": "'Unassigned' level set karo agar exhibitor khud Shop Wizard se package buy karega. Specific level set karo agar admin directly assign karna chahta hai."
+    },
+    {
+      "id": "user-multiple-shows",
+      "title": "Existing user ko doosre event ka access do",
+      "side": "admin",
+      "questions": [
+        "How to give user access to another show?",
+        "user ko doosre event mein kaise add karein?",
+        "crossover users between events",
+        "user multiple shows access",
+        "doosre portal mein user add karna"
+      ],
+      "tags": [
+        "user",
+        "multiple shows",
+        "cross event",
+        "access",
+        "another event"
+      ],
+      "steps": [
+        {
+          "text": "Pehle company ko naye event mein add karo: **Companies** → **Add** → **Add New Company**.",
+          "path": "companies",
+          "label": "Add New Company"
+        },
+        {
+          "text": "Company details fill karo aur save karo.",
+          "path": null,
+          "label": "Save"
+        },
+        {
+          "text": "Ab us company ke under user add karo: company open karo → **Users** tab → **Add User**.",
+          "path": null,
+          "label": "Add User"
+        },
+        {
+          "text": "User ka email enter karo — agar already ERC mein hai to existing account se link ho jayega.",
+          "path": null,
+          "label": "Email"
+        },
+        {
+          "text": "User ko welcome email bhejo ya login karne do — existing password se login kar sakta hai.",
+          "path": null,
+          "label": "Send Welcome Email"
+        }
+      ],
+      "notes": "ERC mein ek hi email address multiple events access kar sakta hai. Pehle company add karo phir user add karo us company ke under."
+    },
+    {
+      "id": "home-page-icons",
+      "title": "Exhibitor home page ke icons / cards show ya hide karo",
+      "side": "admin",
+      "questions": [
+        "How to update icons on exhibitor home page?",
+        "home page icons kaise change karein?",
+        "exhibitor portal icons hide karna hai",
+        "dashboard icons show/hide karo",
+        "home page cards update karo"
+      ],
+      "tags": [
+        "home page",
+        "icons",
+        "cards",
+        "exhibitor portal",
+        "dashboard",
+        "show hide"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Event Setup** click karo.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "**Advanced Settings** section mein jao.",
+          "path": "event-setup/advanced",
+          "label": "Advanced Settings"
+        },
+        {
+          "text": "Home page icons/cards ke options dhundo aur enable ya disable karo.",
+          "path": null,
+          "label": "Toggle"
+        },
+        {
+          "text": "**Save** click karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Shop, Floor Plan, Tasks, Booth Staff jaise icons yahan se on/off hote hain."
+    },
+    {
+      "id": "registration-flow-tabs",
+      "title": "Exhibitor portal mein Shop/Floor Plan/Tasks tabs nahi dikh rahe — fix karo",
+      "side": "admin",
+      "questions": [
+        "Why aren't tabs showing in exhibitor portal?",
+        "exhibitor ko Shop tab nahi dikh raha",
+        "floor plan tab missing in portal",
+        "registration k baad tabs show nahi ho rahe",
+        "shop wizard nahi dikh raha exhibitor ko"
+      ],
+      "tags": [
+        "tabs",
+        "shop",
+        "floorplan",
+        "tasks",
+        "registration flow",
+        "missing",
+        "exhibitor portal"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Event Setup** click karo.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "**Registration Flow** section mein jao.",
+          "path": "event-setup",
+          "label": "Registration Flow"
+        },
+        {
+          "text": "**Paid Registration Flow** enable karo — yeh Shop Wizard aur doosre tabs ko unlock karta hai.",
+          "path": null,
+          "label": "Paid Registration Flow"
+        },
+        {
+          "text": "Zaroorat ke mutabiq additional steps (Package, Booth, Add-ons) bhi enable karo.",
+          "path": null,
+          "label": "Enable Steps"
+        },
+        {
+          "text": "**Save** click karo aur exhibitor portal preview karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Agar sirf Application Form enabled hai to exhibitor ko sirf form dikh raha hoga. Shop/Floor Plan tabs dekhne k liye Paid Registration Flow ON karna zaroori hai."
+    },
+    {
+      "id": "signup-flow-off",
+      "title": "Sign-up flow band hai — exhibitors register nahi kar pa rahe",
+      "side": "admin",
+      "questions": [
+        "Sign up flow not working",
+        "registration link kaam nahi kar raha",
+        "exhibitors sign up nahi kar pa rahe",
+        "nothing showing on register page",
+        "sign up page blank hai"
+      ],
+      "tags": [
+        "signup",
+        "registration",
+        "flow",
+        "off",
+        "blank",
+        "not working"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Event Setup** click karo.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "**Registration Flow** section mein jao.",
+          "path": "event-setup",
+          "label": "Registration Flow"
+        },
+        {
+          "text": "**Sign-Up Flow** toggle **ON** karo.",
+          "path": null,
+          "label": "Sign-Up Flow"
+        },
+        {
+          "text": "**Save** click karo aur sign-up link dobara preview karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Sign-up flow off hone par register page blank ya inaccessible lagta hai. Event Setup > Registration Flow se enable karo."
+    },
+    {
+      "id": "create-clone-portal",
+      "title": "Naya portal banao ya existing event clone karo",
+      "side": "admin",
+      "questions": [
+        "How to create a new portal?",
+        "naya event kaise create karein?",
+        "existing event clone karna hai",
+        "new portal create karo",
+        "duplicate event banao"
+      ],
+      "tags": [
+        "new event",
+        "create portal",
+        "clone",
+        "duplicate",
+        "new portal"
+      ],
+      "steps": [
+        {
+          "text": "Top-right corner mein **Events** dropdown click karo.",
+          "path": null,
+          "label": "Events"
+        },
+        {
+          "text": "**Create New Event** ya **+ New Event** click karo.",
+          "path": null,
+          "label": "Create New Event"
+        },
+        {
+          "text": "Event name, URL aur details fill karo.",
+          "path": null,
+          "label": "Event Name"
+        },
+        {
+          "text": "Naya event save karo.",
+          "path": null,
+          "label": "Save"
+        },
+        {
+          "text": "Ab clone karo: **Event Setup** → **Clone Event** option select karo → source event choose karo jise clone karna hai.",
+          "path": "event-setup",
+          "label": "Clone Event"
+        }
+      ],
+      "notes": "Clone karne se products, levels, email templates aur settings copy ho jati hain. Companies/users copy nahi hote."
+    },
+    {
+      "id": "booth-staff-settings-lock",
+      "title": "Booth staff modifications band karo (portal lock/close)",
+      "side": "admin",
+      "questions": [
+        "How to disable booth staff changes?",
+        "booth staff modifications band karna hai",
+        "portal lock karna hai after deadline",
+        "close website for changes",
+        "booth staff updates rokna hai"
+      ],
+      "tags": [
+        "lock",
+        "close",
+        "booth staff",
+        "disable",
+        "modifications",
+        "deadline"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Companies** click karo.",
+          "path": "companies",
+          "label": "Companies"
+        },
+        {
+          "text": "**More** → **Booth Staff** click karo.",
+          "path": "booth-staff",
+          "label": "Booth Staff"
+        },
+        {
+          "text": "**Booth Staff Settings** button click karo.",
+          "path": null,
+          "label": "Booth Staff Settings"
+        },
+        {
+          "text": "Booth staff registration related settings **OFF** kar do.",
+          "path": null,
+          "label": "Toggle Off"
+        },
+        {
+          "text": "Save karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Yeh sirf booth staff updates rokta hai. Baaki portal features available rehte hain. Poora portal lock karne ka built-in option nahi hai."
+    },
+    {
+      "id": "level-product-visibility",
+      "title": "Product ya add-on ko saare levels pe visible karo",
+      "side": "admin",
+      "questions": [
+        "How to make product visible to all levels?",
+        "product saare levels ko kaise dikhayein?",
+        "add-on all levels pe available karna hai",
+        "level visibility product",
+        "product sirf ek level k liye kyun hai?"
+      ],
+      "tags": [
+        "product",
+        "level",
+        "visibility",
+        "all levels",
+        "add-on",
+        "shop"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Shop** → **Manage Products** click karo.",
+          "path": "manage-products",
+          "label": "Manage Products"
+        },
+        {
+          "text": "Product edit karo.",
+          "path": null,
+          "label": "Edit"
+        },
+        {
+          "text": "**Level** dropdown mein se sirf ek level remove karo.",
+          "path": null,
+          "label": "Level"
+        },
+        {
+          "text": "**Select All** choose karo taake saare levels include ho jayein.",
+          "path": null,
+          "label": "Select All"
+        },
+        {
+          "text": "**Save** click karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Ek custom 'All' level create karne se kaam nahi chalta — product edit mein 'Select All' use karo."
+    },
+    {
+      "id": "update-user-email",
+      "title": "User ka email address change karo",
+      "side": "admin",
+      "questions": [
+        "How to change user email address?",
+        "user ka email kaise change karein?",
+        "email update karna hai exhibitor ka",
+        "wrong email correct karna hai",
+        "change vendor email address"
+      ],
+      "tags": [
+        "email",
+        "change email",
+        "update email",
+        "user",
+        "exhibitor",
+        "email address"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Companies** → **Manage Users** click karo.",
+          "path": "manage-users",
+          "label": "Manage Users"
+        },
+        {
+          "text": "User dhundo aur user record open karo.",
+          "path": null,
+          "label": "User"
+        },
+        {
+          "text": "**Edit** click karo.",
+          "path": null,
+          "label": "Edit"
+        },
+        {
+          "text": "Email field update karo — agar locked hai to support team se request karo kyunki email primary login ID hai.",
+          "path": null,
+          "label": "Email"
+        },
+        {
+          "text": "**Save** click karo.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "Email address login ID hai — change karne par user naye email se login karta hai. Agar system allow nahi kar raha to ExpoGenie support se request karo."
+    },
+    {
+      "id": "report-booth-staff-dietary",
+      "title": "Booth staff report export mein dietary fields include karo",
+      "side": "admin",
+      "questions": [
+        "booth staff dietary restrictions report mein nahi aa raha",
+        "booth staff export fields missing",
+        "report customize karein",
+        "booth staff report fields add karo"
+      ],
+      "tags": [
+        "booth staff",
+        "dietary",
+        "report",
+        "export",
+        "fields",
+        "customize"
+      ],
+      "steps": [
+        {
+          "text": "**Reports** section mein jao.",
+          "path": "reports",
+          "label": "Reports"
+        },
+        {
+          "text": "**Booth Staff Report** open karo.",
+          "path": "reports",
+          "label": "Booth Staff Report"
+        },
+        {
+          "text": "Right side par **Fields** button click karo.",
+          "path": null,
+          "label": "Fields"
+        },
+        {
+          "text": "**Dietary Restrictions** enable karo.",
+          "path": null,
+          "label": "Dietary Restrictions"
+        },
+        {
+          "text": "Report export karo.",
+          "path": null,
+          "label": "Export"
+        }
+      ],
+      "notes": "Fields button right side par hota hai. Enable karo aur dobara export karo."
+    },
+    {
+      "id": "invoice-payment-link",
+      "title": "Invoice mein payment link add karo / stripe payment link",
+      "side": "admin",
+      "questions": [
+        "How to add payment link to invoice?",
+        "invoice mein payment link nahi hai",
+        "stripe payment link missing on invoice",
+        "invoice email mein pay karne ka link nahi",
+        "payment link on invoice email"
+      ],
+      "tags": [
+        "invoice",
+        "payment link",
+        "stripe",
+        "email",
+        "pay now"
+      ],
+      "steps": [
+        {
+          "text": "Left sidebar mein **Event Setup** click karo.",
+          "path": "event-setup",
+          "label": "Event Setup"
+        },
+        {
+          "text": "**Invoice Settings** ya **Email Settings** section dhundo.",
+          "path": "event-setup",
+          "label": "Invoice Settings"
+        },
+        {
+          "text": "**Include Payment Link in Invoice Email** option enable karo.",
+          "path": null,
+          "label": "Include Payment Link"
+        },
+        {
+          "text": "**Save** click karo.",
+          "path": null,
+          "label": "Save"
+        },
+        {
+          "text": "Test invoice email bhejo aur check karo k payment link aa raha hai.",
+          "path": null,
+          "label": "Send Test"
+        }
+      ],
+      "notes": "Stripe connected hona zaroori hai. Agar phir bhi link nahi aa raha to ExpoGenie support se contact karo — settings back-end se bhi set ho sakti hai."
+    },
+    {
+      "id": "add-admin-user",
+      "title": "Naya admin team member add karo (portal admin)",
+      "side": "admin",
+      "questions": [
+        "How to add admin to portal?",
+        "naya admin kaise add karein?",
+        "team member admin access dena hai",
+        "add staff as admin",
+        "portal admin add karo"
+      ],
+      "tags": [
+        "admin",
+        "team member",
+        "add admin",
+        "staff",
+        "portal admin"
+      ],
+      "steps": [
+        {
+          "text": "Top-right corner mein apna account dropdown click karo.",
+          "path": null,
+          "label": "Account"
+        },
+        {
+          "text": "**Team** ya **Team Members** option select karo.",
+          "path": "settings/team",
+          "label": "Team"
+        },
+        {
+          "text": "**Add Team Member** click karo.",
+          "path": null,
+          "label": "Add Team Member"
+        },
+        {
+          "text": "Name aur email enter karo aur role select karo (Admin/Support/etc.).",
+          "path": null,
+          "label": "Email"
+        },
+        {
+          "text": "**Invite** ya **Save** click karo — user ko email invitation milega.",
+          "path": null,
+          "label": "Invite"
+        }
+      ],
+      "notes": "Team member ko invitation email milta hai. Login karne k baad wo event manage kar sakta hai."
+    },
+    {
+      "id": "prepaid-booth-manual-invoice",
+      "title": "Pre-paid booth wale companies manually add karo aur invoice banao",
+      "side": "admin",
+      "questions": [
+        "How to record pre-paid booth payment?",
+        "pehle se payment kar chuke companies kaise add karein?",
+        "manual invoice kaise create karein existing company k liye?",
+        "pre-paid exhibitor manually add karna",
+        "already paid booth assignment karna hai"
+      ],
+      "tags": [
+        "pre-paid",
+        "manual invoice",
+        "add company",
+        "payment recorded",
+        "booth assignment"
+      ],
+      "steps": [
+        {
+          "text": "**Companies** → **Add New Company** click karo.",
+          "path": "companies",
+          "label": "Add New Company"
+        },
+        {
+          "text": "Company details fill karo aur level assign karo.",
+          "path": null,
+          "label": "Save"
+        },
+        {
+          "text": "Company ke under user add karo: **Users** tab → **Add User**.",
+          "path": null,
+          "label": "Add User"
+        },
+        {
+          "text": "**Invoices** → **Create Invoice** click karo — is company k liye invoice banao.",
+          "path": "invoices",
+          "label": "Create Invoice"
+        },
+        {
+          "text": "Invoice mein booth ya package add karo aur discount apply karo agar needed.",
+          "path": null,
+          "label": "Add Item"
+        },
+        {
+          "text": "**Record Payment** click karo aur amount, method (Check/Wire) enter karo.",
+          "path": null,
+          "label": "Record Payment"
+        },
+        {
+          "text": "User ko welcome email bhejo: company → **Send Welcome Email**.",
+          "path": null,
+          "label": "Send Welcome Email"
+        }
+      ],
+      "notes": "Company add → User add → Invoice create → Payment record → Welcome email — yeh hai correct sequence pre-paid exhibitors k liye."
     }
   ]
 }
