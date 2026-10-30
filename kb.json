@@ -1035,46 +1035,112 @@
       "notes": "Levels are usually assigned by the package bought (Assign Level) or a booth workflow."
     },
     {
-      "id": "booth-staff-admin",
-      "title": "Booth staff: settings, limits, adding staff (admin)",
+      "id": "booth-staff-settings",
+      "title": "Enable booth staff registration (Booth Staff Settings)",
       "side": "admin",
       "tags": [
         "booth staff",
-        "staff",
-        "staff limit",
-        "registration link",
-        "badge",
-        "booth staff add",
-        "staff registration"
+        "staff settings",
+        "enable booth staff",
+        "booth staff registration",
+        "allow exhibitor add staff",
+        "staff form",
+        "public registration form"
       ],
       "questions": [
-        "How do I let exhibitors add booth staff?",
-        "How do I increase the booth staff limit?",
-        "exhibitor can't add booth staff"
+        "How do I enable booth staff registration?",
+        "How do I let exhibitors add their own booth staff?",
+        "How do I turn on the booth staff form?",
+        "Exhibitor can't add booth staff",
+        "Where is Booth Staff Settings?"
       ],
       "steps": [
         {
-          "text": "Open Companies › More › Booth Staff.",
+          "text": "Open Companies › More › **Booth Staff**.",
           "path": "booth-staff",
           "label": "Booth Staff"
         },
         {
-          "text": "Click **Booth Staff Settings**: enable public registration form, Allow Exhibitor to add / edit & delete Booth Staff, hide count → Save.",
+          "text": "Click **Booth Staff Settings**.",
           "path": "booth-staff",
           "label": "Booth Staff Settings"
         },
         {
-          "text": "Limit per company comes from the **Level** (Booth Staff Limit). Raise it in Companies › Levels, or per company in Edit company › Company Settings › Booth Staff Settings (Override), or with an add-on workflow 'Increase Booth Staff Registration Limit'.",
+          "text": "Enable: **Allow Public Registration Form**, **Allow Exhibitor to Add Booth Staff**, **Allow Exhibitor to Edit & Delete Booth Staff**. Optionally hide the count → **Save**.",
+          "path": null,
+          "label": "Save"
+        }
+      ],
+      "notes": "If exhibitors still can't add staff after enabling, check their booth staff limit (limit = 0 means they see '0 of 0')."
+    },
+    {
+      "id": "booth-staff-limits",
+      "title": "Increase booth staff limit for a level or company",
+      "side": "admin",
+      "tags": [
+        "booth staff limit",
+        "staff limit",
+        "increase limit",
+        "booth staff count",
+        "registered staff 0",
+        "staff allowance",
+        "override limit"
+      ],
+      "questions": [
+        "How do I increase the booth staff limit?",
+        "Exhibitor sees 'Registered Staff 0 of 0'",
+        "How do I give a company more booth staff slots?",
+        "Booth staff limit is 0",
+        "How do I set booth staff limit per level?"
+      ],
+      "steps": [
+        {
+          "text": "**For all companies in a level:** Open Companies › **Levels** → ✎ edit the level → set **Booth Staff Limit** → Save.",
           "path": "levels",
-          "label": null
+          "label": "Levels"
         },
         {
-          "text": "Admins can add staff directly with **Add New** on the Booth Staff page.",
+          "text": "**For one specific company:** Companies › Companies → ✎ edit the company → **Company Settings** → **Booth Staff Settings** → set Override limit → **Save Settings**.",
+          "path": "companies",
+          "label": "Company Settings"
+        },
+        {
+          "text": "**Via add-on:** Edit the add-on product → **Workflows** → **Increase Booth Staff Registration Limit** → set the number → Save.",
+          "path": "manage-products",
+          "label": "Workflows"
+        }
+      ],
+      "notes": "If the exhibitor sees 'Registered Staff 0 of 0', their limit is 0 — raise it at the level or override per company."
+    },
+    {
+      "id": "booth-staff-add-admin",
+      "title": "Add booth staff directly as admin",
+      "side": "admin",
+      "tags": [
+        "add booth staff",
+        "booth staff add",
+        "admin add staff",
+        "manually add staff",
+        "booth staff new"
+      ],
+      "questions": [
+        "How do I add booth staff as admin?",
+        "How do I manually add a booth staff member?",
+        "Can admin add booth staff directly?"
+      ],
+      "steps": [
+        {
+          "text": "Open Companies › More › **Booth Staff**.",
+          "path": "booth-staff",
+          "label": "Booth Staff"
+        },
+        {
+          "text": "Click **Add New** and fill in the staff member's details → **Save**.",
           "path": "booth-staff",
           "label": "Add New"
         }
       ],
-      "notes": "If the exhibitor sees 'Registered Staff 0 of 0', their limit is 0."
+      "notes": "Exhibitors can also add their own staff from their portal under BOOTH STAFF, or by sharing the registration URL."
     },
     {
       "id": "pending-review",
