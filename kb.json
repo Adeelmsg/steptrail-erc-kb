@@ -694,18 +694,23 @@
       "side": "admin",
       "tags": [
         "edit company",
+        "update company",
+        "change company",
+        "company details",
         "change level",
         "company level",
-        "update company",
         "booth details",
         "company description",
         "logo",
-        "coi"
+        "coi",
+        "company settings"
       ],
       "questions": [
+        "How do I edit a company?",
+        "How do I update a company?",
         "How do I change a company's level?",
-        "How do I change a company's level?",
-        "edit exhibitor company info"
+        "How do I edit exhibitor company info?",
+        "How do I update company details?"
       ],
       "steps": [
         {
