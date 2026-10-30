@@ -1637,7 +1637,7 @@
           "label": "Save All Changes"
         }
       ],
-      "notes": "Forms sidebar mein Companies ke neeche scroll karne par milta hai — Companies flyout mein nahi."
+      "notes": "Forms → Company Fields yahan hain — Companies section mein nahi. Sidebar mein scroll karke Forms dhundo."
     },
     {
       "id": "signup-login-links",
