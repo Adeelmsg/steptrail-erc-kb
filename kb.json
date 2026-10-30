@@ -4381,6 +4381,59 @@
         }
       ],
       "notes": "Correct sequence for pre-paid exhibitors: Add Company → Add User → Create Invoice → Record Payment → Send Welcome Email."
+    },
+    {
+      "id": "booth-staff-contact-fields",
+      "title": "Add a custom field to the Booth Staff registration form (Contact Fields)",
+      "side": "admin",
+      "tags": [
+        "booth staff field",
+        "contact fields",
+        "booth staff form",
+        "custom booth staff field",
+        "add field booth staff",
+        "booth staff registration field",
+        "contact field add",
+        "forms contact fields",
+        "booth staff contact field",
+        "booth staff field add karna",
+        "contact fields kahan hai"
+      ],
+      "questions": [
+        "How do I add a custom field to the booth staff registration form?",
+        "Where do I add booth staff fields?",
+        "booth staff form mein field kaise add karun",
+        "contact fields kahan hain"
+      ],
+      "steps": [
+        {
+          "text": "Open **Forms** in the left sidebar.",
+          "path": "contact-fields",
+          "label": "Forms"
+        },
+        {
+          "text": "Click **More** to expand the sub-menu, then click **Contact Fields**.",
+          "path": "contact-fields",
+          "label": "Contact Fields"
+        },
+        {
+          "text": "Click **Add New**.",
+          "path": "contact-fields",
+          "label": "Add New"
+        },
+        {
+          "text": "Enter the **Field Label**, choose the **Field Type** (Text Box, Dropdown, Date, etc.), and set **Required?** if needed.",
+          "path": null,
+          "label": "Field Label"
+        },
+        {
+          "text": "Click **Save All Changes**.",
+          "path": null,
+          "label": "Save All Changes"
+        }
+      ],
+      "notes": "Contact Fields are fields on the Booth Staff registration form. Path: Forms → More → Contact Fields. This is different from Company Fields (which are on the exhibitor company registration form).",
+      "trained": "2026-10-30"
     }
   ]
 }
