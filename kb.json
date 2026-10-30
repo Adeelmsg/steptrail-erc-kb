@@ -15,16 +15,16 @@
         "create",
         "sponsorship",
         "tier",
-        "naya package",
-        "product banana",
+        "new package",
+        "create product",
         "shop"
       ],
       "questions": [
+        "How do I add a new package?",
         "How do I add a package?",
-        "naya package kaise add karun",
         "create sponsorship package",
         "add product to shop",
-        "shop products kahan hai",
+        "shop products where is it",
         "where are products"
       ],
       "steps": [
@@ -77,11 +77,11 @@
         "extra",
         "product",
         "sponsorship opportunity",
-        "add karna"
+        "how to add"
       ],
       "questions": [
         "How do I add an add-on?",
-        "add on kaise banayein",
+        "How do I create an add-on?",
         "create add-on for exhibitors"
       ],
       "steps": [
@@ -138,11 +138,11 @@
         "shop products",
         "manage products",
         "products page",
-        "kahan hai"
+        "where is it"
       ],
       "questions": [
+        "How do I change a product price?",
         "How do I change a package price?",
-        "product ki price kaise change karun",
         "hide a product",
         "reorder packages",
         "delete product",
@@ -151,11 +151,11 @@
         "delete package",
         "delete addon",
         "Where is Shop Products?",
-        "Shop products kahan hai",
-        "manage products kahan hai",
+        "Shop products where is it",
+        "manage products where is it",
         "where is the shop",
-        "products page kahan hai",
-        "shop mein products kaise dekhun"
+        "products page where is it",
+        "How do I view products in the shop?"
       ],
       "steps": [
         {
@@ -193,7 +193,7 @@
       ],
       "questions": [
         "How do I group products?",
-        "products ko group mein kaise dalun"
+        "How do I put products in a group?"
       ],
       "steps": [
         {
@@ -225,12 +225,12 @@
         "manual order",
         "sales receipt",
         "bill",
-        "invoice banana",
-        "order banana"
+        "create invoice",
+        "create order"
       ],
       "questions": [
         "How do I create an invoice for an exhibitor?",
-        "admin side se order kaise create karun",
+        "How do I create an order from the admin side?",
         "make a sales receipt"
       ],
       "steps": [
@@ -281,7 +281,7 @@
       ],
       "questions": [
         "How do I edit an invoice?",
-        "invoice mein item add kaise karun",
+        "How do I add an item to an invoice?",
         "change price on invoice"
       ],
       "steps": [
@@ -321,7 +321,7 @@
       ],
       "questions": [
         "How do I mark an invoice as paid?",
-        "check payment kaise add karun",
+        "How do I add a check payment?",
         "receive payment on invoice"
       ],
       "steps": [
@@ -361,11 +361,11 @@
         "refund",
         "money back",
         "log a refund",
-        "refund karna"
+        "how to refund"
       ],
       "questions": [
         "How do I refund an exhibitor?",
-        "refund kaise karun"
+        "How do I process a refund?"
       ],
       "steps": [
         {
@@ -400,7 +400,7 @@
       ],
       "questions": [
         "How do I resend the invoice to the exhibitor?",
-        "invoice dobara kaise bhejun",
+        "How do I resend the invoice?",
         "download invoice pdf"
       ],
       "steps": [
@@ -428,11 +428,11 @@
         "code",
         "discount code",
         "percentage off",
-        "coupon code banana"
+        "create coupon code"
       ],
       "questions": [
         "How do I create a discount code?",
-        "discount code kaise banayein",
+        "How do I create a discount code?",
         "10% coupon"
       ],
       "steps": [
@@ -497,8 +497,8 @@
       ],
       "questions": [
         "How do I add early bird pricing?",
-        "member ko discount kaise dein",
-        "credit card fee add karni hai",
+        "How do I give a member a discount?",
+        "How do I add a credit card fee?",
         "second booth discount"
       ],
       "steps": [
@@ -534,11 +534,11 @@
         "installments",
         "split payment",
         "payment plan",
-        "qist"
+        "installment payment"
       ],
       "questions": [
         "Can exhibitors pay in installments?",
-        "installment kaise on karun"
+        "How do I enable installments?"
       ],
       "steps": [
         {
@@ -572,7 +572,7 @@
       ],
       "questions": [
         "How do I enable credit card payments?",
-        "pay later kaise hide karun",
+        "How do I hide Pay Later?",
         "stripe connect"
       ],
       "steps": [
@@ -614,7 +614,7 @@
       ],
       "questions": [
         "How do I add terms and conditions at checkout?",
-        "exhibitor sirf ek package le sake",
+        "How do I limit exhibitors to one package?",
         "hide remaining stock"
       ],
       "steps": [
@@ -647,11 +647,11 @@
         "bulk import",
         "import companies",
         "upload companies",
-        "company banana"
+        "create company"
       ],
       "questions": [
         "How do I add an exhibitor company?",
-        "company kaise add karun",
+        "How do I add a company?",
         "bulk import exhibitors"
       ],
       "steps": [
@@ -704,7 +704,7 @@
       ],
       "questions": [
         "How do I change a company's level?",
-        "company ka level kaise change karun",
+        "How do I change a company's level?",
         "edit exhibitor company info"
       ],
       "steps": [
@@ -744,7 +744,7 @@
       ],
       "questions": [
         "How do I merge two duplicate companies?",
-        "duplicate company merge kaise karun"
+        "How do I merge a duplicate company?"
       ],
       "steps": [
         {
@@ -787,11 +787,11 @@
       ],
       "questions": [
         "How do I export the company list?",
-        "companies download kaise karun",
+        "How do I download the company list?",
         "How do I delete a company?",
-        "company delete kaise karun",
+        "How do I delete a company?",
         "how to delete a company",
-        "company kaise delete karun",
+        "How do I delete a company?",
         "delete company",
         "remove a company",
         "delete",
@@ -824,12 +824,12 @@
         "welcome email",
         "new user",
         "contact",
-        "user banana",
+        "create user",
         "password"
       ],
       "questions": [
         "How do I give an exhibitor a login?",
-        "user kaise add karun",
+        "How do I add a user?",
         "send welcome email"
       ],
       "steps": [
@@ -882,12 +882,12 @@
         "How do I remove an exhibitor login?",
         "delete a user",
         "remove a user",
-        "user delete kaise karun",
+        "How do I delete a user?",
         "portal user delete",
         "how to delete portal user",
         "remove exhibitor login",
         "delete user login",
-        "user ka access hatao",
+        "How do I remove a user's access?",
         "delete",
         "delete user",
         "remove user",
@@ -929,12 +929,12 @@
         "login issue",
         "welcome email",
         "password reset",
-        "login nahi",
-        "password bhool"
+        "cannot login",
+        "forgot password"
       ],
       "questions": [
         "Exhibitor can't log in",
-        "exhibitor ka password reset kaise karun",
+        "How do I reset an exhibitor's password?",
         "resend welcome email"
       ],
       "steps": [
@@ -975,7 +975,7 @@
       ],
       "questions": [
         "How do I see what the exhibitor sees?",
-        "exhibitor ban kar kaise dekhun",
+        "How do I view the portal as an exhibitor?",
         "impersonate user"
       ],
       "steps": [
@@ -1008,11 +1008,11 @@
         "booth staff limit",
         "booth limit",
         "level priority",
-        "level banana"
+        "create level"
       ],
       "questions": [
         "How do I create a new level?",
-        "level kaise banayein",
+        "How do I create a level?",
         "set booth staff limit per level"
       ],
       "steps": [
@@ -1049,7 +1049,7 @@
       ],
       "questions": [
         "How do I let exhibitors add booth staff?",
-        "booth staff limit kaise barhaun",
+        "How do I increase the booth staff limit?",
         "exhibitor can't add booth staff"
       ],
       "steps": [
@@ -1090,7 +1090,7 @@
       ],
       "questions": [
         "Where are incomplete registrations?",
-        "registration complete nahi hui",
+        "Registration did not complete",
         "approve applicant"
       ],
       "steps": [
@@ -1118,7 +1118,7 @@
         "reserve booth",
         "booth not purchasable",
         "booth price set",
-        "booth bechna",
+        "selling booth",
         "self-booth purchase",
         "self booth purchase",
         "level purchasability",
@@ -1134,11 +1134,11 @@
       ],
       "questions": [
         "How do I set a booth price?",
-        "booth sale ke liye kaise lagaun",
+        "How do I put a booth up for sale?",
         "exhibitor can't buy booth",
         "How do I let only one level buy a booth?",
         "Can a booth purchase give the exhibitor a level?",
-        "booth ki price kaise change karun"
+        "How do I change a booth price?"
       ],
       "steps": [
         {
@@ -1204,11 +1204,11 @@
         "give booth",
         "booth number",
         "exhibitor booth",
-        "booth dena"
+        "assign booth"
       ],
       "questions": [
         "How do I assign a booth to a company?",
-        "booth kisi company ko kaise assign karun",
+        "How do I assign a booth to a company?",
         "delete booth",
         "remove booth",
         "unassign booth"
@@ -1249,7 +1249,7 @@
       ],
       "questions": [
         "How do I change a booth number?",
-        "floor plan edit kaise karun",
+        "How do I edit the floor plan?",
         "upload floor plan background",
         "delete booth from floor plan",
         "remove booth from map"
@@ -1299,7 +1299,7 @@
       ],
       "questions": [
         "Where is the public floor plan link?",
-        "booth price public view se kaise hide karun",
+        "How do I hide the booth price on the public view?",
         "how many booths can a user buy"
       ],
       "steps": [
@@ -1343,12 +1343,12 @@
         "due date",
         "logo task",
         "coi",
-        "task banana",
+        "create task",
         "form field"
       ],
       "questions": [
         "How do I create a task for exhibitors?",
-        "naya task kaise add karun",
+        "How do I add a new task?",
         "ask exhibitors to upload a file",
         "delete task",
         "delete a task",
@@ -1402,7 +1402,7 @@
       ],
       "questions": [
         "Where can I see what exhibitors submitted?",
-        "task submissions kahan dekhun",
+        "Where can I see task submissions?",
         "download all logos"
       ],
       "steps": [
@@ -1439,8 +1439,8 @@
       ],
       "questions": [
         "How do I add a page to the exhibitor menu?",
-        "FAQ page edit kaise karun",
-        "home page text change"
+        "How do I edit the FAQ page?",
+        "How do I change the home page text?"
       ],
       "steps": [
         {
@@ -1480,7 +1480,7 @@
       ],
       "questions": [
         "How do I upload an exhibitor manual?",
-        "resources mein file kaise dalun"
+        "How do I upload a file to resources?"
       ],
       "steps": [
         {
@@ -1511,7 +1511,7 @@
       ],
       "questions": [
         "How do I change the welcome email?",
-        "email template edit kaise karun"
+        "How do I edit an email template?"
       ],
       "steps": [
         {
@@ -1551,7 +1551,7 @@
       ],
       "questions": [
         "How do I put our logo on the invoice?",
-        "invoice ka design kaise change karun"
+        "How do I change the invoice design?"
       ],
       "steps": [
         {
@@ -1589,55 +1589,55 @@
         "user field",
         "form",
         "registration",
-        "khana",
+        "field",
         "add field",
         "new field"
       ],
       "questions": [
         "How do I add a field to the registration form?",
-        "sign up form mein field kaise add karun",
+        "How do I add a field to the sign-up form?",
         "delete field",
         "delete a field",
         "remove field",
         "delete registration field",
         "how to add a company field",
         "how to add a company filed",
-        "company field kaise add karun",
-        "company fields kahan hain",
-        "registration mein field add karna",
+        "How do I add a company field?",
+        "company fields where is itn",
+        "How do I add a field to registration?",
         "add field to company profile",
-        "naya field banana",
-        "custom field add karna",
+        "How do I create a new field?",
+        "custom field how to add",
         "forms company fields"
       ],
       "steps": [
         {
-          "text": "Left sidebar mein scroll karke **Forms** section dhundo aur click karo.",
+          "text": "Scroll down in the left sidebar to find the **Forms** section and click it.",
           "path": "company-fields",
           "label": "Forms"
         },
         {
-          "text": "**Company Fields** par click karo (Companies flyout mein nahi — yeh alag Forms section hai).",
+          "text": "Click **Company Fields** (not in the Companies flyout — this is a separate Forms section).",
           "path": "company-fields",
           "label": "Company Fields"
         },
         {
-          "text": "Top right mein **Add New Field ▾** click karo → **Company Fields** ya **User Fields** choose karo.",
+          "text": "Click **Add New Field ▾** in the top right → choose **Company Fields** or **User Fields**.",
           "path": "company-fields",
           "label": "Add New Field"
         },
         {
-          "text": "Field Label, Field Type, Required?, Display on Registration? fill karo.",
+          "text": "Fill in Field Label, Field Type, Required?, Display on Registration?",
           "path": null,
           "label": "Field Label"
         },
         {
-          "text": "**Save All Changes** click karo.",
+          "text": "Click **Save All Changes**.",
           "path": null,
           "label": "Save All Changes"
         }
       ],
-      "notes": "Forms sidebar mein Companies ke neeche scroll karne par milta hai — Companies flyout mein nahi."
+      "notes": "Found in the Forms section in the sidebar (scroll below Companies) — not in the Companies flyout menu."
     },
     {
       "id": "signup-login-links",
@@ -1655,8 +1655,8 @@
       ],
       "questions": [
         "Where is the registration link?",
-        "exhibitor ko kaunsa link bhejun",
-        "portal login url"
+        "Which link do I send to exhibitors?",
+        "What is the portal login URL?"
       ],
       "steps": [
         {
@@ -1692,7 +1692,7 @@
       ],
       "questions": [
         "How do I change the event dates?",
-        "logo kaise change karun",
+        "How do I change the logo?",
         "who gets new order emails",
         "turn off booth step in registration"
       ],
@@ -1753,7 +1753,7 @@
       ],
       "questions": [
         "How do I export all invoices?",
-        "report kaise nikalun",
+        "How do I run a report?",
         "who deleted this booth?",
         "see bounced emails"
       ],
@@ -1790,7 +1790,7 @@
       ],
       "questions": [
         "How do I register as an exhibitor?",
-        "registration kaise karun"
+        "How do I register?"
       ],
       "steps": [
         {
@@ -1830,11 +1830,11 @@
         "buy booth",
         "select booth",
         "booth",
-        "booth lena"
+        "buy booth"
       ],
       "questions": [
         "How do I reserve a booth?",
-        "booth kaise book karun"
+        "How do I reserve a booth?"
       ],
       "steps": [
         {
@@ -1869,7 +1869,7 @@
       ],
       "questions": [
         "How do I buy an add-on?",
-        "add on kaise khareedun"
+        "How do I buy an add-on?"
       ],
       "steps": [
         {
@@ -1902,7 +1902,7 @@
       ],
       "questions": [
         "Where do I enter my discount code?",
-        "coupon code kahan dalun"
+        "Where do I enter a coupon code?"
       ],
       "steps": [
         {
@@ -1938,7 +1938,7 @@
       ],
       "questions": [
         "How do I pay my invoice?",
-        "invoice ki payment kaise karun",
+        "How do I pay an invoice?",
         "pay remaining balance"
       ],
       "steps": [
@@ -1975,7 +1975,7 @@
       ],
       "questions": [
         "How do I upload my logo?",
-        "task kaise submit karun"
+        "How do I submit a task?"
       ],
       "steps": [
         {
@@ -2010,7 +2010,7 @@
       ],
       "questions": [
         "How do I add booth staff?",
-        "booth staff kaise add karun"
+        "How do I add booth staff?"
       ],
       "steps": [
         {
@@ -2039,7 +2039,7 @@
       ],
       "questions": [
         "How do I give my colleague access?",
-        "doosre user ko access kaise dun"
+        "How do I give another user access?"
       ],
       "steps": [
         {
@@ -2068,7 +2068,7 @@
       ],
       "questions": [
         "How do I change my password?",
-        "password kaise change karun"
+        "How do I change my password?"
       ],
       "steps": [
         {
@@ -2097,7 +2097,7 @@
       ],
       "questions": [
         "How do I upload my insurance certificate?",
-        "COI kahan upload karun"
+        "Where do I upload my COI?"
       ],
       "steps": [
         {
@@ -2132,9 +2132,6 @@
         "copy event",
         "duplicate event",
         "next year event",
-        "naya event",
-        "naya portal",
-        "event banana",
         "event clone",
         "events dropdown",
         "create new event",
@@ -2144,8 +2141,8 @@
         "I am looking to create a new portal cloning an existing event",
         "How do I create a new event?",
         "Can I copy last year's event to a new portal?",
-        "naya portal kaise banayein",
-        "event clone kaise karein"
+        "How do I create a new portal?",
+        "How do I clone an event?"
       ],
       "steps": [
         {
@@ -2214,8 +2211,8 @@
       "questions": [
         "How do I update which icons are shown on the exhibitor homepage?",
         "Can I hide the Open Balance card for exhibitors?",
-        "exhibitor home page pe kaunse icons dikhenge kaise change karun",
-        "home page cards kaise hide karein"
+        "How do I change which icons show on the exhibitor home page?",
+        "How do I hide home page cards?"
       ],
       "steps": [
         {
@@ -2267,7 +2264,7 @@
       ],
       "questions": [
         "How do I change the event dates?",
-        "event ka naam kaise badlun"
+        "How do I change the event name?"
       ],
       "steps": [
         {
@@ -2310,7 +2307,7 @@
       ],
       "questions": [
         "How do I change the portal URL?",
-        "portal ka link kaise change karun"
+        "How do I change the portal link?"
       ],
       "steps": [
         {
@@ -2354,7 +2351,7 @@
       ],
       "questions": [
         "How do I change the currency to CAD?",
-        "time zone kaise change karun"
+        "How do I change the time zone?"
       ],
       "steps": [
         {
@@ -2398,7 +2395,7 @@
       ],
       "questions": [
         "How do I change the portal colors?",
-        "portal ka color kaise badlun"
+        "How do I change the portal color?"
       ],
       "steps": [
         {
@@ -2443,7 +2440,7 @@
       ],
       "questions": [
         "How do I change the logo on the portal?",
-        "header image kaise lagaun"
+        "How do I upload a header image?"
       ],
       "steps": [
         {
@@ -2488,7 +2485,7 @@
       ],
       "questions": [
         "How do I remove the booth selection from registration?",
-        "registration mein add-ons ka step kaise hataun"
+        "How do I remove the add-ons step from registration?"
       ],
       "steps": [
         {
@@ -2531,7 +2528,7 @@
       ],
       "questions": [
         "Can exhibitors apply first and we approve them?",
-        "approval ke baad purchase kaise karwaun"
+        "How do I require approval before purchase?"
       ],
       "steps": [
         {
@@ -2573,7 +2570,7 @@
       ],
       "questions": [
         "How do I let exhibitors register without paying?",
-        "registration free kaise karun"
+        "How do I make registration free?"
       ],
       "steps": [
         {
@@ -2618,7 +2615,7 @@
       ],
       "questions": [
         "How do I get an email when someone places an order?",
-        "new registration ki email kis ko jaye"
+        "Who receives the new registration email?"
       ],
       "steps": [
         {
@@ -2662,7 +2659,7 @@
       ],
       "questions": [
         "How do I turn off the insurance banner?",
-        "insurance kaise enable karun"
+        "How do I enable insurance?"
       ],
       "steps": [
         {
@@ -2702,7 +2699,7 @@
       ],
       "questions": [
         "What level do new exhibitors get?",
-        "default level kaise set karun"
+        "How do I set the default level?"
       ],
       "steps": [
         {
@@ -2745,7 +2742,7 @@
       ],
       "questions": [
         "Can we call companies 'Sponsors' instead?",
-        "company ka label kaise change karun"
+        "How do I change the company label?"
       ],
       "steps": [
         {
@@ -2788,7 +2785,7 @@
       ],
       "questions": [
         "Can exhibitors add their colleagues?",
-        "exhibitor apni team kaise add kare"
+        "How can exhibitors add their team?"
       ],
       "steps": [
         {
@@ -2830,7 +2827,7 @@
       ],
       "questions": [
         "How do I allow only one package per exhibitor?",
-        "ek se zyada package na le sake"
+        "How do I prevent more than one package per exhibitor?"
       ],
       "steps": [
         {
@@ -2873,7 +2870,7 @@
       ],
       "questions": [
         "How do I add terms and conditions to checkout?",
-        "terms and conditions kaise lagaun"
+        "How do I add terms and conditions?"
       ],
       "steps": [
         {
@@ -2956,7 +2953,7 @@
       ],
       "questions": [
         "How do I hide the discount code field?",
-        "discount code ka box kaise hataun"
+        "How do I hide the discount code box?"
       ],
       "steps": [
         {
@@ -2999,7 +2996,7 @@
       ],
       "questions": [
         "How do I hide how many packages are left?",
-        "stock count kaise chupaun"
+        "How do I hide the stock count?"
       ],
       "steps": [
         {
@@ -3081,7 +3078,7 @@
       ],
       "questions": [
         "How do I hide booth prices on the public floor plan?",
-        "floor plan pe price kaise chupaun"
+        "How do I hide prices on the floor plan?"
       ],
       "steps": [
         {
@@ -3120,7 +3117,7 @@
       ],
       "questions": [
         "How many booths can one exhibitor buy?",
-        "ek exhibitor kitne booth le sakta hai"
+        "How many booths can one exhibitor buy?"
       ],
       "steps": [
         {
@@ -3190,7 +3187,7 @@
       ],
       "questions": [
         "How do I stop exhibitors adding booth staff?",
-        "booth staff form kaise on karun"
+        "How do I enable the booth staff form?"
       ],
       "steps": [
         {
@@ -3228,7 +3225,7 @@
       ],
       "questions": [
         "How do I add payment terms to the invoice?",
-        "invoice pe payment link kaise lagaun"
+        "How do I add a payment link to the invoice?"
       ],
       "steps": [
         {
@@ -3265,7 +3262,7 @@
       ],
       "questions": [
         "How do I lock a task after the deadline?",
-        "task submit hone ke baad lock kaise karun"
+        "How do I lock a task after submission?"
       ],
       "steps": [
         {
@@ -3308,8 +3305,8 @@
       "questions": [
         "Can I customize the Register page to ask for their website?",
         "How do I add a question to the registration form?",
-        "registration form mein apna sawal kaise add karun",
-        "sign up page pe website field kaise dikhaun"
+        "How do I add a custom question to the registration form?",
+        "How do I show the website field on the sign-up page?"
       ],
       "steps": [
         {
@@ -3357,14 +3354,14 @@
         "submitted application",
         "where is my application",
         "moderate applicants",
-        "application kahan",
-        "approve kaise"
+        "where are applications",
+        "approve applicants"
       ],
       "questions": [
         "I submitted a test registration but can't see where the application appears for review",
         "Where do I approve applicants?",
-        "application kahan nazar aati hai",
-        "applicants ko approve kaise karun"
+        "Where do applications appear?",
+        "How do I approve applicants?"
       ],
       "steps": [
         {
@@ -3398,12 +3395,11 @@
         "email when application",
         "new registration email",
         "alert",
-        "application submit email",
-        "notification kaise"
+        "application submit email"
       ],
       "questions": [
         "Is it possible to receive a notification when someone submits the application?",
-        "new application ki email kaise aaye"
+        "How do I receive a notification when an application is submitted?"
       ],
       "steps": [
         {
@@ -3446,7 +3442,7 @@
       ],
       "questions": [
         "If they search for their company on the Register page, why don't the other fields fill in?",
-        "company search se fields khud kyun nahi bharte"
+        "Why don't the fields auto-fill when searching for a company?"
       ],
       "steps": [
         {
@@ -3475,11 +3471,11 @@
         "give access",
         "colleague access",
         "manage event admins",
-        "admin banana"
+        "create admin"
       ],
       "questions": [
         "How do I give a colleague admin access to the event?",
-        "event admin kaise add karun"
+        "How do I add an event admin?"
       ],
       "steps": [
         {
@@ -3517,7 +3513,7 @@
       ],
       "questions": [
         "How do I set the lead scanning price?",
-        "lead scanning kahan set hota hai"
+        "Where do I set up lead scanning?"
       ],
       "steps": [
         {
@@ -3552,7 +3548,7 @@
       ],
       "questions": [
         "Can we use our own domain for the portal?",
-        "white label kaise set karein"
+        "How do I set up white label?"
       ],
       "steps": [
         {
@@ -3587,7 +3583,7 @@
       ],
       "questions": [
         "Do you have an API?",
-        "API credentials kahan milte hain"
+        "Where do I find API credentials?"
       ],
       "steps": [
         {
@@ -4396,14 +4392,14 @@
         "contact field add",
         "forms contact fields",
         "booth staff contact field",
-        "booth staff field add karna",
-        "contact fields kahan hai"
+        "booth staff field how to add",
+        "contact fields where is it"
       ],
       "questions": [
         "How do I add a custom field to the booth staff registration form?",
         "Where do I add booth staff fields?",
-        "booth staff form mein field kaise add karun",
-        "contact fields kahan hain"
+        "How do I add a field to the booth staff form?",
+        "contact fields where is itn"
       ],
       "steps": [
         {
