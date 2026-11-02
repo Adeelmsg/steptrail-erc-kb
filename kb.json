@@ -1527,19 +1527,28 @@
       "title": "Floor plan settings: public link, booth limit, pre-paid, hide details, queue",
       "side": "admin",
       "tags": [
+        "hide exhibitor",
+        "booth price public",
+        "booth queue",
         "public floor plan",
-        "floor plan link",
-        "pre-paid",
         "prepaid",
         "hide price",
-        "hide exhibitor",
-        "booth queue",
-        "allowed booths"
+        "hide exhibitor names",
+        "reserved booth",
+        "hide",
+        "booth",
+        "pre-paid",
+        "prices",
+        "floor plan link",
+        "allowed booths",
+        "exhibitor"
       ],
       "questions": [
+        "how many booths can a user buy",
+        "How do I hide booth prices on the public floor plan?",
+        "How do I hide prices on the floor plan?",
         "Where is the public floor plan link?",
-        "How do I hide the booth price on the public view?",
-        "how many booths can a user buy"
+        "How do I hide the booth price on the public view?"
       ],
       "steps": [
         {
@@ -1568,7 +1577,8 @@
           "label": "Save"
         }
       ],
-      "notes": ""
+      "notes": "",
+      "trained": "2026-11-02"
     },
     {
       "id": "tasks-admin",
@@ -1993,8 +2003,6 @@
       "side": "admin",
       "tags": [
         "event setup",
-        "event name",
-        "event date",
         "logo",
         "branding",
         "colors",
@@ -2006,7 +2014,6 @@
         "currency"
       ],
       "questions": [
-        "How do I change the event dates?",
         "How do I change the logo?",
         "who gets new order emails",
         "turn off booth step in registration"
@@ -2050,21 +2057,18 @@
       "title": "Run and export reports",
       "side": "admin",
       "tags": [
-        "booth staff export",
         "report columns",
         "who changed",
         "who deleted",
         "csv",
         "cvent",
         "report sort",
-        "booth staff list export",
         "separate columns",
         "change history",
         "log",
         "booth report",
         "first name last name",
         "report",
-        "booth staff report",
         "payment report",
         "activity log",
         "report search",
@@ -2079,22 +2083,17 @@
         "email report",
         "export excel",
         "report filter",
-        "booth staff names",
         "badge printing",
         "excel"
       ],
       "questions": [
-        "How do I export booth staff names in separate columns?",
         "Report search is not finding results",
         "Report columns are wrong in exported file",
         "who deleted this booth?",
         "How do I filter the report?",
         "see bounced emails",
         "How do I export all invoices?",
-        "Booth staff names are all in one cell — how to fix?",
-        "How do I export booth staff for badge printing?",
-        "How do I run a report?",
-        "How do I run the Booth Staff Report?"
+        "How do I run a report?"
       ],
       "steps": [
         {
@@ -2512,39 +2511,45 @@
       "title": "Create a new event / portal (and clone an existing event into it)",
       "side": "admin",
       "tags": [
-        "create portal",
-        "pricing rules not cloned",
-        "copy event",
-        "clone issues",
-        "next year event",
-        "clone event",
-        "create new event",
-        "clone event settings",
-        "create event",
-        "new portal",
-        "event clone",
-        "booth staff settings not cloned",
-        "clone",
-        "events dropdown",
         "clone not working",
+        "create portal",
         "cloning",
-        "floor plan not cloned",
-        "duplicate event",
-        "tasks not cloned",
         "levels not cloned",
+        "clone",
+        "pricing rules not cloned",
+        "create new event",
+        "events dropdown",
+        "event clone",
         "clone portal",
-        "new event"
+        "floor plan not cloned",
+        "next year event",
+        "new portal",
+        "tasks not cloned",
+        "new event",
+        "clone issues",
+        "duplicate",
+        "create event",
+        "clone event settings",
+        "duplicate event",
+        "copy event",
+        "clone event",
+        "booth staff settings not cloned"
       ],
       "questions": [
-        "How do I clone an event?",
-        "Can I copy last year's event to a new portal?",
+        "Why didn't my pricing rules clone?",
         "Booth staff settings are missing after clone",
-        "How do I create a new event?",
-        "Tasks are missing in the cloned event",
         "Floor plan did not copy over when cloning",
-        "How do I create a new portal?",
+        "How do I clone an event?",
+        "Tasks are missing in the cloned event",
+        "How do I create a new event?",
+        "Set up a new show from an existing one",
+        "How to create a new event?",
         "I am looking to create a new portal cloning an existing event",
-        "Why didn't my pricing rules clone?"
+        "Can I copy last year's event to a new portal?",
+        "How to create a new portal?",
+        "Clone an existing event",
+        "Duplicate an event",
+        "How do I create a new portal?"
       ],
       "steps": [
         {
@@ -2583,7 +2588,7 @@
           "label": null
         }
       ],
-      "notes": "Taught by ExpoGenie Support. Cloning copies INTO the event that is currently selected and cannot be undone — it can overwrite what is already in that portal. Companies and Users clone only basic info (first/last name, company, level, email). When cloning, always verify: Levels, Pricing Rules, Tasks, Booth Staff Settings, Floor Plan, and Email Templates — some settings may need to be re-applied in the new portal after cloning.",
+      "notes": "Taught by ExpoGenie Support. Cloning copies INTO the event that is currently selected and cannot be undone — it can overwrite what is already in that portal. Companies and Users clone only basic info (first/last name, company, level, email). When cloning, always verify: Levels, Pricing Rules, Tasks, Booth Staff Settings, Floor Plan, and Email Templates — some settings may need to be re-applied in the new portal after cloning. Cloning copies products, levels, email templates, and settings. Companies and users are not copied.",
       "reply": "Thank you for reaching out!\nYes, you can create a new portal by first creating a new event. From the top-right corner, open the Events drop-down and create a new event. Once the event is created, you can clone {old event} into the new event.\nI hope this helps! Please let me know if you need any further assistance.",
       "trained": "2026-11-02"
     },
@@ -2592,29 +2597,38 @@
       "title": "Show / hide the cards (icons) on the exhibitor home page",
       "side": "admin",
       "tags": [
-        "home page",
-        "homepage",
-        "exhibitor homepage",
-        "icons",
-        "cards",
-        "home page icons",
-        "home page cards",
+        "profile card",
         "dashboard cards",
         "overdue tasks card",
         "open balance card",
-        "booth staff card",
-        "booth number card",
-        "profile card",
-        "hide home page overview",
-        "home page pe icons",
         "icons hide",
-        "icons show"
+        "home page icons",
+        "icons show",
+        "cards",
+        "homepage",
+        "hide home page overview",
+        "icons",
+        "booth number card",
+        "home page cards",
+        "exhibitor homepage",
+        "show",
+        "exhibitor portal",
+        "booth staff card",
+        "hide",
+        "dashboard",
+        "home page",
+        "home page pe icons"
       ],
       "questions": [
-        "How do I update which icons are shown on the exhibitor homepage?",
-        "Can I hide the Open Balance card for exhibitors?",
         "How do I change which icons show on the exhibitor home page?",
-        "How do I hide home page cards?"
+        "How to update icons on the exhibitor home page?",
+        "How do I update which icons are shown on the exhibitor homepage?",
+        "How to hide icons on exhibitor dashboard?",
+        "Change which cards appear on the exhibitor home page",
+        "How do I hide home page cards?",
+        "Can I hide the Open Balance card for exhibitors?",
+        "Exhibitor portal home page icons",
+        "Show or hide dashboard cards"
       ],
       "steps": [
         {
@@ -2643,9 +2657,9 @@
           "label": "Save Changes"
         }
       ],
-      "notes": "Taught by ExpoGenie Support. These are the cards at the top of the exhibitor HOME page (Overdue Tasks, Open Balance, Registered Staff, Booth Number, Profile). Not the menu — that is Content › Menu and Pages.",
+      "notes": "Taught by ExpoGenie Support. These are the cards at the top of the exhibitor HOME page (Overdue Tasks, Open Balance, Registered Staff, Booth Number, Profile). Not the menu — that is Content › Menu and Pages. Icons like Shop, Floor Plan, Tasks, and Booth Staff are toggled here.",
       "reply": "Hi {first name},\nThank you for reaching out!\nYou can update which icons appear on the exhibitor homepage by following these steps:\n\n1. Go to Event Setup → Advanced Settings.\n2. Scroll down to the relevant settings.\n3. Enable or disable the options according to your preferences, as shown in the screenshot.\n\nI hope this helps! Please let me know if you need any further assistance.",
-      "trained": "2026-10-29"
+      "trained": "2026-11-02"
     },
     {
       "id": "set-event-name-dates",
@@ -2653,20 +2667,23 @@
       "side": "admin",
       "tags": [
         "event name",
-        "event date",
-        "dates",
-        "venue",
-        "address",
-        "location",
+        "change event name",
         "rename event",
-        "change",
-        "event",
-        "name,",
-        "dates"
+        "event dates",
+        "change dates",
+        "venue",
+        "change venue",
+        "start date",
+        "end date",
+        "event details",
+        "update event name",
+        "edit event details"
       ],
       "questions": [
-        "How do I change the event dates?",
-        "How do I change the event name?"
+        "How do I change the event name?",
+        "How do I update the event dates?",
+        "How do I change the venue?",
+        "Where do I edit event details?"
       ],
       "steps": [
         {
@@ -2690,7 +2707,8 @@
           "label": "Save Changes"
         }
       ],
-      "notes": ""
+      "notes": "",
+      "trained": "2026-11-02"
     },
     {
       "id": "set-portal-url",
@@ -3464,44 +3482,6 @@
       "notes": ""
     },
     {
-      "id": "set-hide-booth-price",
-      "title": "Hide booth prices / exhibitor names on the public floor plan",
-      "side": "admin",
-      "tags": [
-        "hide price",
-        "booth price public",
-        "hide exhibitor names",
-        "public floor plan",
-        "reserved booth",
-        "hide",
-        "booth",
-        "prices",
-        "exhibitor"
-      ],
-      "questions": [
-        "How do I hide booth prices on the public floor plan?",
-        "How do I hide prices on the floor plan?"
-      ],
-      "steps": [
-        {
-          "text": "Open **Floor Plan** (left menu).",
-          "path": "floorplan",
-          "label": "Floor Plan"
-        },
-        {
-          "text": "Click **Settings ⚙** on the floor plan card.",
-          "path": null,
-          "label": "Settings"
-        },
-        {
-          "text": "Find **Hide Booth Price on Public View**. Floor Plan Visibility: Hide Exhibitor Details, Hide Reserved Booth Exhibitor Details, Hide Booth Price on Public View. Click **Save**.",
-          "path": null,
-          "label": "Hide Booth Price on Public View"
-        }
-      ],
-      "notes": ""
-    },
-    {
       "id": "set-booths-per-user",
       "title": "Limit booths per exhibitor / pre-paid booths",
       "side": "admin",
@@ -3908,103 +3888,158 @@
       "title": "Lead scanning price / URL",
       "side": "admin",
       "tags": [
+        "scan leads",
+        "lead scan price",
+        "leads setup",
         "lead scanning",
-        "lead retrieval",
+        "lead scanning price",
+        "leads",
+        "exhibitor leads",
+        "qr code leads",
+        "scan badge",
+        "lead scanning url",
         "badge scanning",
-        "lead scan price"
+        "lead retrieval",
+        "lead capture"
       ],
       "questions": [
         "How do I set the lead scanning price?",
-        "Where do I set up lead scanning?"
+        "How do I set up lead scanning?",
+        "Exhibitors want to scan attendee badges — how do I enable this?",
+        "Where do I set up lead scanning?",
+        "Lead scanning kahan set karte hain?",
+        "Where is the lead scanning URL?"
       ],
       "steps": [
         {
-          "text": "Click the profile icon (top-right corner) → **Settings**.",
-          "path": "settings",
-          "label": null
-        },
-        {
-          "text": "Open **Lead Scanning**.",
-          "path": null,
+          "text": "Go to **Advanced** › **Lead Scanning** in the left menu.",
+          "path": "advanced/lead-scanning",
           "label": "Lead Scanning"
         },
         {
-          "text": "Set **Price** and **URL** → **Save Settings**.",
+          "text": "Enter the **Lead Scanning URL** (the external scanner app URL provided by your badge vendor).",
           "path": null,
-          "label": "Save Settings"
+          "label": "Lead Scanning URL"
+        },
+        {
+          "text": "Set the **Price** for lead scanning access (0 for free).",
+          "path": null,
+          "label": "Price"
+        },
+        {
+          "text": "Click **Save**.",
+          "path": null,
+          "label": "Save"
+        },
+        {
+          "text": "Exhibitors will see the **Lead Scanning** option in their portal under their account/add-ons.",
+          "path": null,
+          "label": null
         }
       ],
-      "notes": ""
+      "notes": "Lead scanning requires an external badge scanning app — ERC links to it but does not provide the scanning software itself. The price set here appears as an add-on purchase for exhibitors. If exhibitors report the lead scanning link is broken, verify the URL saved in Lead Scanning settings is correct and reachable.",
+      "trained": "2026-11-02"
     },
     {
       "id": "settings-white-label",
       "title": "White label domain (custom URL / email domain)",
       "side": "admin",
       "tags": [
-        "white label",
-        "custom domain",
-        "own domain",
-        "cname",
         "email domain",
-        "branded url"
+        "cname",
+        "portal domain",
+        "white label setup",
+        "branded domain",
+        "custom domain",
+        "white label",
+        "custom email",
+        "branded url",
+        "own domain",
+        "custom url"
       ],
       "questions": [
+        "How do I white-label ERC with my company's URL?",
         "Can we use our own domain for the portal?",
+        "Custom domain kaise set karte hain?",
+        "How do I set a custom email sending domain?",
+        "How do I use my own domain for the exhibitor portal?",
         "How do I set up white label?"
       ],
       "steps": [
         {
-          "text": "Click the profile icon (top-right corner) → **Settings**.",
-          "path": "settings",
-          "label": null
-        },
-        {
-          "text": "Open **White Label**.",
-          "path": null,
+          "text": "Go to **Advanced** › **White Label** in the left menu.",
+          "path": "advanced/white-label",
           "label": "White Label"
         },
         {
-          "text": "Tab **White Label URL**: enter your URL (e.g. CNAME.your-domain.com) → **Continue** → Domain Verification → Confirmation. Tab **Email Sub Domain** for sending email from your domain.",
+          "text": "Enter your **Custom Domain** (e.g. exhibits.yourshow.com) and **Custom Email Domain**.",
           "path": null,
-          "label": "White Label URL"
+          "label": "Custom Domain"
+        },
+        {
+          "text": "Follow the DNS instructions shown — add the CNAME records to your domain registrar.",
+          "path": null,
+          "label": null
+        },
+        {
+          "text": "Click **Save** and allow up to 24 hours for DNS propagation.",
+          "path": null,
+          "label": "Save"
         }
       ],
-      "notes": ""
+      "notes": "White-label domain requires DNS access to your company's domain. ExpoGenie support can assist with the DNS record values. Once active, the exhibitor portal will load at your custom URL and emails will show your domain as the sender.",
+      "trained": "2026-11-02"
     },
     {
       "id": "settings-rest-api",
       "title": "ExpoGenie REST API / MCP credentials",
       "side": "admin",
       "tags": [
-        "api",
+        "api token",
         "rest api",
+        "webhook",
+        "integration credentials",
         "mcp",
+        "api",
+        "developer",
+        "api key",
+        "api access",
         "integration",
-        "api credentials",
-        "api key"
+        "bearer token",
+        "api credentials"
       ],
       "questions": [
+        "Where do I find API credentials?",
+        "Where do I find the REST API token?",
         "Do you have an API?",
-        "Where do I find API credentials?"
+        "How do I connect ERC to a third-party tool?",
+        "How do I get the API key for ERC?",
+        "API credentials kahan milti hain?"
       ],
       "steps": [
         {
-          "text": "Click the profile icon (top-right corner) → **Settings**.",
-          "path": "settings",
+          "text": "Go to **Advanced** › **Rest API** in the left menu.",
+          "path": "advanced/rest-api",
+          "label": "Rest API"
+        },
+        {
+          "text": "Click **Generate Token** to create a new API bearer token.",
+          "path": null,
+          "label": "Generate Token"
+        },
+        {
+          "text": "Copy the token — it will not be shown again. Use it as the `Authorization: Bearer <token>` header in API calls.",
+          "path": null,
           "label": null
         },
         {
-          "text": "Open **ExpoGenie REST API**.",
+          "text": "The base API URL and available endpoints are documented at https://erc.expogenie.io/docs",
           "path": null,
-          "label": "ExpoGenie REST API"
-        },
-        {
-          "text": "See Base URL, API Documentation, MCP Endpoint; create credentials under **API Clients**.",
-          "path": null,
-          "label": "API Clients"
+          "label": null
         }
       ],
-      "notes": ""
+      "notes": "Keep the API token secure — it grants full access to your event data. If a token is compromised, regenerate it immediately (the old token will stop working). The MCP server for agent integrations uses this same token.",
+      "trained": "2026-11-02"
     },
     {
       "id": "settings-data-migration",
@@ -4076,19 +4111,24 @@
       "title": "Add extra fields (dietary restrictions) to the Booth Staff Report",
       "side": "admin",
       "questions": [
-        "How to add dietary restrictions to booth staff report?",
+        "Customize booth staff export fields",
         "Booth staff report is missing dietary field",
-        "How to customize booth staff report columns?",
+        "Dietary restrictions not appearing in booth staff export",
+        "Booth staff report customize columns",
+        "How to add dietary restrictions to booth staff report?",
+        "How to add dietary fields to booth staff report?",
         "Add fields to booth staff export",
-        "Booth staff report customize columns"
+        "How to customize booth staff report columns?",
+        "Booth staff report missing dietary column"
       ],
       "tags": [
-        "booth staff",
-        "report",
+        "customize",
         "dietary",
         "fields",
+        "columns",
+        "report",
         "export",
-        "columns"
+        "booth staff"
       ],
       "steps": [
         {
@@ -4117,7 +4157,8 @@
           "label": "Export"
         }
       ],
-      "notes": "The Fields button is on the right side of the report page. Enable it once and it stays on for every export."
+      "notes": "The Fields button is on the right side of the report page. Enable it once and it stays on for every export. The Fields button is on the right side of the page. Enable and then re-export.",
+      "trained": "2026-11-02"
     },
     {
       "id": "update-expo-hours",
@@ -4249,50 +4290,6 @@
       "notes": "One email address can access multiple events in ERC. Always add the company first, then add the user under that company."
     },
     {
-      "id": "home-page-icons",
-      "title": "Show or hide icons / cards on the exhibitor home page",
-      "side": "admin",
-      "questions": [
-        "How to update icons on the exhibitor home page?",
-        "How to hide icons on exhibitor dashboard?",
-        "Change which cards appear on the exhibitor home page",
-        "Show or hide dashboard cards",
-        "Exhibitor portal home page icons"
-      ],
-      "tags": [
-        "home page",
-        "icons",
-        "cards",
-        "exhibitor portal",
-        "dashboard",
-        "show",
-        "hide"
-      ],
-      "steps": [
-        {
-          "text": "In the left sidebar, click **Event Setup**.",
-          "path": "event-setup",
-          "label": "Event Setup"
-        },
-        {
-          "text": "Go to the **Advanced Settings** section.",
-          "path": "event-setup/advanced",
-          "label": "Advanced Settings"
-        },
-        {
-          "text": "Find the home page icons/cards options and enable or disable them as needed.",
-          "path": null,
-          "label": "Toggle"
-        },
-        {
-          "text": "Click **Save**.",
-          "path": null,
-          "label": "Save"
-        }
-      ],
-      "notes": "Icons like Shop, Floor Plan, Tasks, and Booth Staff are toggled here."
-    },
-    {
       "id": "registration-flow-tabs",
       "title": "Shop / Floor Plan / Tasks tabs not showing in exhibitor portal — fix",
       "side": "admin",
@@ -4385,54 +4382,6 @@
         }
       ],
       "notes": "When the sign-up flow is off, the register page appears blank or inaccessible. Enable it from Event Setup → Registration Flow."
-    },
-    {
-      "id": "create-clone-portal",
-      "title": "Create a new portal or clone an existing event",
-      "side": "admin",
-      "questions": [
-        "How to create a new portal?",
-        "How to create a new event?",
-        "Clone an existing event",
-        "Duplicate an event",
-        "Set up a new show from an existing one"
-      ],
-      "tags": [
-        "new event",
-        "create portal",
-        "clone",
-        "duplicate",
-        "new portal",
-        "copy event"
-      ],
-      "steps": [
-        {
-          "text": "Click the **Events** dropdown in the top-right corner.",
-          "path": null,
-          "label": "Events"
-        },
-        {
-          "text": "Click **Create New Event** or **+ New Event**.",
-          "path": null,
-          "label": "Create New Event"
-        },
-        {
-          "text": "Fill in the event name, URL, and details.",
-          "path": null,
-          "label": "Event Name"
-        },
-        {
-          "text": "Save the new event.",
-          "path": null,
-          "label": "Save"
-        },
-        {
-          "text": "To clone settings from another event: go to **Event Setup** → **Clone Event**, then select the source event.",
-          "path": "event-setup",
-          "label": "Clone Event"
-        }
-      ],
-      "notes": "Cloning copies products, levels, email templates, and settings. Companies and users are not copied."
     },
     {
       "id": "booth-staff-settings-lock",
@@ -4578,53 +4527,6 @@
         }
       ],
       "notes": "The email address is the user's login ID. After changing it, the user logs in with the new email. If the system does not allow the change, request it from ExpoGenie support."
-    },
-    {
-      "id": "report-booth-staff-dietary",
-      "title": "Include dietary restriction fields in the booth staff report export",
-      "side": "admin",
-      "questions": [
-        "Dietary restrictions not appearing in booth staff export",
-        "Booth staff report missing dietary column",
-        "How to add dietary fields to booth staff report?",
-        "Customize booth staff export fields"
-      ],
-      "tags": [
-        "booth staff",
-        "dietary",
-        "report",
-        "export",
-        "fields",
-        "customize"
-      ],
-      "steps": [
-        {
-          "text": "Go to the **Reports** section.",
-          "path": "reports",
-          "label": "Reports"
-        },
-        {
-          "text": "Open **Booth Staff Report**.",
-          "path": "reports",
-          "label": "Booth Staff Report"
-        },
-        {
-          "text": "Click the **Fields** button on the right side.",
-          "path": null,
-          "label": "Fields"
-        },
-        {
-          "text": "Enable **Dietary Restrictions**.",
-          "path": null,
-          "label": "Dietary Restrictions"
-        },
-        {
-          "text": "Export the report.",
-          "path": null,
-          "label": "Export"
-        }
-      ],
-      "notes": "The Fields button is on the right side of the page. Enable and then re-export."
     },
     {
       "id": "invoice-payment-link",
@@ -4898,23 +4800,20 @@
       "title": "Create a new event using the Event Wizard",
       "side": "admin",
       "tags": [
-        "event wizard",
         "new event",
         "create event",
+        "event wizard",
+        "event creation wizard",
+        "new portal",
+        "start new event",
         "event setup wizard",
-        "event creation",
-        "levels on creation",
-        "slug",
-        "event slug",
-        "event url",
-        "event name"
+        "create new portal"
       ],
       "questions": [
         "How do I create a new event?",
-        "Event wizard kahan hai?",
-        "How do I set up an event from scratch?",
-        "New event banane ka tarika",
-        "Event creation wizard"
+        "How do I start a new event from scratch?",
+        "Where is the event creation wizard?",
+        "How do I create a new portal?"
       ],
       "steps": [
         {
@@ -4997,59 +4896,6 @@
         }
       ],
       "notes": "Each sponsor company must have a unique label within an event. You cannot create two sponsor companies with the same label. If the Add New wizard does not open, try refreshing the page. After creating a company, add a sponsor admin user via the Users section to give them portal access.",
-      "trained": "2026-11-02"
-    },
-    {
-      "id": "leads-merge",
-      "title": "Leads and lead scanning setup",
-      "side": "admin",
-      "tags": [
-        "leads",
-        "lead scanning",
-        "lead capture",
-        "scan badge",
-        "qr code leads",
-        "lead scanning price",
-        "lead scanning url",
-        "leads setup",
-        "exhibitor leads",
-        "scan leads"
-      ],
-      "questions": [
-        "How do I set up lead scanning?",
-        "Lead scanning kahan set karte hain?",
-        "How do I set the lead scanning price?",
-        "Where is the lead scanning URL?",
-        "Exhibitors want to scan attendee badges — how do I enable this?"
-      ],
-      "steps": [
-        {
-          "text": "Go to **Advanced** › **Lead Scanning** in the left menu.",
-          "path": "advanced/lead-scanning",
-          "label": "Lead Scanning"
-        },
-        {
-          "text": "Enter the **Lead Scanning URL** (the external scanner app URL provided by your badge vendor).",
-          "path": null,
-          "label": "Lead Scanning URL"
-        },
-        {
-          "text": "Set the **Price** for lead scanning access (0 for free).",
-          "path": null,
-          "label": "Price"
-        },
-        {
-          "text": "Click **Save**.",
-          "path": null,
-          "label": "Save"
-        },
-        {
-          "text": "Exhibitors will see the **Lead Scanning** option in their portal under their account/add-ons.",
-          "path": null,
-          "label": null
-        }
-      ],
-      "notes": "Lead scanning requires an external badge scanning app — ERC links to it but does not provide the scanning software itself. The price set here appears as an add-on purchase for exhibitors. If exhibitors report the lead scanning link is broken, verify the URL saved in Lead Scanning settings is correct and reachable.",
       "trained": "2026-11-02"
     },
     {
@@ -5191,99 +5037,6 @@
         }
       ],
       "notes": "For Cvent badge printing, always use the Booth Staff Report — it has First Name and Last Name in separate columns. The Company Report combines names into one cell and is not suitable for badge import. Contact ExpoGenie support at support@expogenie.com for Cvent API sync setup.",
-      "trained": "2026-11-02"
-    },
-    {
-      "id": "white-label-domain",
-      "title": "Set up white label / custom domain for the portal",
-      "side": "admin",
-      "tags": [
-        "white label",
-        "custom domain",
-        "custom url",
-        "custom email",
-        "branded domain",
-        "own domain",
-        "portal domain",
-        "email domain",
-        "white label setup"
-      ],
-      "questions": [
-        "How do I use my own domain for the exhibitor portal?",
-        "Custom domain kaise set karte hain?",
-        "How do I white-label ERC with my company's URL?",
-        "How do I set a custom email sending domain?"
-      ],
-      "steps": [
-        {
-          "text": "Go to **Advanced** › **White Label** in the left menu.",
-          "path": "advanced/white-label",
-          "label": "White Label"
-        },
-        {
-          "text": "Enter your **Custom Domain** (e.g. exhibits.yourshow.com) and **Custom Email Domain**.",
-          "path": null,
-          "label": "Custom Domain"
-        },
-        {
-          "text": "Follow the DNS instructions shown — add the CNAME records to your domain registrar.",
-          "path": null,
-          "label": null
-        },
-        {
-          "text": "Click **Save** and allow up to 24 hours for DNS propagation.",
-          "path": null,
-          "label": "Save"
-        }
-      ],
-      "notes": "White-label domain requires DNS access to your company's domain. ExpoGenie support can assist with the DNS record values. Once active, the exhibitor portal will load at your custom URL and emails will show your domain as the sender.",
-      "trained": "2026-11-02"
-    },
-    {
-      "id": "rest-api-setup",
-      "title": "Get API / MCP credentials (REST API & integrations)",
-      "side": "admin",
-      "tags": [
-        "api",
-        "rest api",
-        "api key",
-        "api token",
-        "mcp",
-        "integration credentials",
-        "developer",
-        "webhook",
-        "api access",
-        "bearer token"
-      ],
-      "questions": [
-        "How do I get the API key for ERC?",
-        "API credentials kahan milti hain?",
-        "Where do I find the REST API token?",
-        "How do I connect ERC to a third-party tool?"
-      ],
-      "steps": [
-        {
-          "text": "Go to **Advanced** › **Rest API** in the left menu.",
-          "path": "advanced/rest-api",
-          "label": "Rest API"
-        },
-        {
-          "text": "Click **Generate Token** to create a new API bearer token.",
-          "path": null,
-          "label": "Generate Token"
-        },
-        {
-          "text": "Copy the token — it will not be shown again. Use it as the `Authorization: Bearer <token>` header in API calls.",
-          "path": null,
-          "label": null
-        },
-        {
-          "text": "The base API URL and available endpoints are documented at https://erc.expogenie.io/docs",
-          "path": null,
-          "label": null
-        }
-      ],
-      "notes": "Keep the API token secure — it grants full access to your event data. If a token is compromised, regenerate it immediately (the old token will stop working). The MCP server for agent integrations uses this same token.",
       "trained": "2026-11-02"
     },
     {
