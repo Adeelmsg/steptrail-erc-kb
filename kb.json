@@ -8039,13 +8039,13 @@
       ],
       "steps": [
         {
-          "text": "Open **Forms** in the left sidebar.",
-          "path": "billing-fields",
+          "text": "Click **Forms** in the left sidebar.",
+          "path": null,
           "label": "Forms"
         },
         {
           "text": "Click **More** to expand the sub-menu.",
-          "path": "billing-fields",
+          "path": null,
           "label": "More"
         },
         {
