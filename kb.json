@@ -8054,14 +8054,14 @@
           "label": "Billing Fields"
         },
         {
-          "text": "Click **Add New Field** to add a new billing field, or edit existing ones.",
+          "text": "Click **+ Add New** (top right) to add a new billing field.",
           "path": null,
-          "label": "Add New Field"
+          "label": "+ Add New"
         },
         {
-          "text": "Fill in the Field Label, Field Type, and Required? settings.",
+          "text": "Fill in the Field Label, Field Type, and Required? settings in the new field card.",
           "path": null,
-          "label": "Field Label"
+          "label": null
         },
         {
           "text": "Click **Save All Changes**.",
