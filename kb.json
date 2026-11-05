@@ -5612,48 +5612,49 @@
         "nov-erc",
         "credit card",
         "payment processing",
-        "fiserv setup"
+        "fiserv setup",
+        "payment methods",
+        "shop payment",
+        "connect fiserv",
+        "fiserv connect"
       ],
       "questions": [
         "How do I set up Fiserv payment gateway?",
         "How to connect Fiserv to ERC?",
         "Fiserv kaise set up karein?",
-        "Fiserv integration kaise lagaein?"
+        "Fiserv integration kaise lagaein?",
+        "How to enable Fiserv payments?",
+        "Fiserv payment method kaise add karein?"
       ],
       "steps": [
         {
-          "text": "Go to **Settings** in the left sidebar",
-          "path": "settings",
-          "label": "Settings"
+          "text": "Go to **Shop › Payment Methods** in the left sidebar.",
+          "path": "payment-gateways",
+          "label": "Payment Methods"
         },
         {
-          "text": "Click **Payment Gateways** under the Integrations section",
-          "path": "settings/payment-gateways",
-          "label": "Payment Gateways"
-        },
-        {
-          "text": "Click **Add Gateway** and select **Fiserv** from the dropdown",
-          "path": "settings/payment-gateways",
-          "label": "Add Gateway"
-        },
-        {
-          "text": "Enter your Fiserv merchant credentials (Merchant ID, API Key, Secret)",
-          "path": "settings/payment-gateways",
+          "text": "Find the **Fiserv** row in the payment methods list.",
+          "path": "payment-gateways",
           "label": null
         },
         {
-          "text": "Select which currencies and transaction types to enable",
-          "path": "settings/payment-gateways",
+          "text": "Click **Connect** to link your Fiserv account.",
+          "path": "payment-gateways",
+          "label": "Connect"
+        },
+        {
+          "text": "Complete the Fiserv connection flow and enter your merchant credentials when prompted.",
+          "path": null,
           "label": null
         },
         {
-          "text": "Click **Save** to activate Fiserv as a payment option",
-          "path": "settings/payment-gateways",
+          "text": "Click **Save** to activate Fiserv as a payment option.",
+          "path": "payment-gateways",
           "label": "Save"
         }
       ],
-      "notes": "Nov-ERC release (upcoming) — Fiserv v1 integration goes live with November ERC release (Oct-008). Adds Fiserv as a supported payment gateway option alongside Stripe and other processors.",
-      "updated": "2026-11-03"
+      "notes": "Nov-ERC release (upcoming) — Fiserv v1 integration goes live with November ERC release (Oct-008). Fiserv appears under Shop › Payment Methods alongside Stripe and other payment processors.",
+      "updated": "2026-11-05"
     },
     {
       "id": "nov-floor-plan-roles",
