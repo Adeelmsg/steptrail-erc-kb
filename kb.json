@@ -782,17 +782,17 @@
       ],
       "steps": [
         {
-          "text": "Go to **Event Setup** (top-right profile icon → event settings, or left menu).",
-          "path": "event-setup",
-          "label": "Event Setup"
-        },
-        {
-          "text": "Open **Payment Methods** (or go to Settings › Payment Gateway).",
+          "text": "Go to **Shop › Payment Methods** in the left sidebar.",
           "path": "payment-gateways",
           "label": "Payment Methods"
         },
         {
-          "text": "Find the **Stripe** row → click **Edit** → click **Connect** to link your Stripe account.",
+          "text": "Find the **Pay Now (Credit/Debit Card — Stripe)** row.",
+          "path": "payment-gateways",
+          "label": null
+        },
+        {
+          "text": "Click the **Connect** button to link your Stripe account.",
           "path": "payment-gateways",
           "label": "Connect"
         },
@@ -802,7 +802,7 @@
           "label": null
         },
         {
-          "text": "Also configure which methods are visible to exhibitors: enable/disable **Pay Now** (Stripe), **Pay Later**, **Pay by Check** as needed → **Save**.",
+          "text": "Also enable/disable **Pay Now**, **Pay Later**, **Pay by Check** as needed → **Save**.",
           "path": "payment-gateways",
           "label": "Save"
         }
