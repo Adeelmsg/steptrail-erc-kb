@@ -1,7 +1,13 @@
 {
-  "updated": "2026-11-05T06:09:23.672Z",
-  "total": 6,
+  "updated": "2026-11-05T12:48:27.827Z",
+  "total": 14,
   "questions": [
+    {
+      "n": 2,
+      "q": "billing fields?",
+      "side": "admin",
+      "t": 1793860722220
+    },
     {
       "n": 1,
       "q": "event setup venue setup?",
@@ -31,6 +37,48 @@
       "q": "where is to change the home background image?",
       "side": "admin",
       "t": 1793858780483
+    },
+    {
+      "n": 1,
+      "q": "how to create rules for pricing bases?",
+      "side": "admin",
+      "t": 1793859099475
+    },
+    {
+      "n": 1,
+      "q": "i want to build my own rule?",
+      "side": "admin",
+      "t": 1793859127443
+    },
+    {
+      "n": 1,
+      "q": "how to stripe enable",
+      "side": "admin",
+      "t": 1793876638389
+    },
+    {
+      "n": 1,
+      "q": "how to connect Fiserv?",
+      "side": "admin",
+      "t": 1793877405010
+    },
+    {
+      "n": 1,
+      "q": "failed payment reasons?",
+      "side": "admin",
+      "t": 1793882560418
+    },
+    {
+      "n": 1,
+      "q": "authorize.net payment error",
+      "side": "admin",
+      "t": 1793882585741
+    },
+    {
+      "q": "email templates",
+      "side": "admin",
+      "n": 1,
+      "t": 1793882741185
     },
     {
       "q": "location change krni hai?",
