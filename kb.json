@@ -7601,7 +7601,7 @@
     },
     {
       "id": "install-stripe",
-      "title": "Connect Stripe Payment Gateway",
+      "title": "Connect Stripe / Enable Online Payments",
       "side": "admin",
       "tags": [
         "stripe",
@@ -7609,14 +7609,27 @@
         "stripe setup",
         "payment gateway stripe",
         "online payments",
+        "enable online payments",
         "credit card payments",
-        "stripe integration"
+        "stripe integration",
+        "payment gateway",
+        "online payment enable",
+        "online payment setup",
+        "pay now enable",
+        "payment methods shop",
+        "online payment kaise enable karein",
+        "stripe connect karna hai"
       ],
       "questions": [
         "How do I connect Stripe?",
         "How to set up credit card payments with Stripe?",
         "Stripe kaise connect karein?",
-        "Online card payment enable karna hai"
+        "Online card payment enable karna hai",
+        "How to enable online payments?",
+        "Online payments kaise enable karein?",
+        "How do I set up payment gateway?",
+        "Payment gateway kaise lagayein?",
+        "Enable online payments connect stripe payment gateway"
       ],
       "steps": [
         {
