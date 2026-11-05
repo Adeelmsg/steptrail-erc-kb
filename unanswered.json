@@ -1,18 +1,12 @@
 {
-  "updated": "2026-11-05T06:08:33.744Z",
-  "total": 7,
+  "updated": "2026-11-05T06:09:23.672Z",
+  "total": 6,
   "questions": [
     {
       "n": 1,
       "q": "event setup venue setup?",
       "side": "admin",
       "t": 1793602449145
-    },
-    {
-      "n": 1,
-      "q": "location change krni hai?",
-      "side": "admin",
-      "t": 1793602516820
     },
     {
       "n": 1,
@@ -28,12 +22,6 @@
     },
     {
       "n": 1,
-      "q": "password",
-      "side": "admin",
-      "t": 1793711568319
-    },
-    {
-      "n": 1,
       "q": "how to setup registration flow?",
       "side": "admin",
       "t": 1793858737074
@@ -43,6 +31,12 @@
       "q": "where is to change the home background image?",
       "side": "admin",
       "t": 1793858780483
+    },
+    {
+      "q": "location change krni hai?",
+      "side": "admin",
+      "n": 1,
+      "t": 1793602516820
     }
   ]
 }
